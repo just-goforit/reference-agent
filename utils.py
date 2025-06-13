@@ -29,9 +29,9 @@ def extract_arxiv_id(reference: str) -> Optional[str]:
     """从参考文献中提取arXiv ID"""
     # 匹配arXiv ID的模式
     patterns = [
-        r'arXiv:([\d\.]+)',  # arXiv:2101.12345
-        r'arXiv\s+([\d\.]+)',  # arXiv 2101.12345
-        r'https?://arxiv.org/abs/([\d\.]+)',  # https://arxiv.org/abs/2101.12345
+        r'arXiv:(\d+\.\d+)',  # arXiv:2101.12345
+        r'arXiv\s+(\d+\.\d+)',  # arXiv 2101.12345
+        r'https?://arxiv.org/abs/(\d+\.\d+)',  # https://arxiv.org/abs/2101.12345
     ]
     
     for pattern in patterns:

@@ -95,7 +95,16 @@ def normalize_citation(citation: str) -> str:
 
 
 def find_citation_context(text: str, citation: str, window_size: int = 200) -> str:
-    """查找引用上下文"""
+    """查找引用上下文，只返回包含引用的句子
+    
+    Args:
+        text: 要搜索的文本
+        citation: 引用标记
+        window_size: 不再使用，保留参数是为了兼容性
+        
+    Returns:
+        包含引用的句子
+    """
     # 转义特殊字符
     escaped_citation = re.escape(citation)
     
@@ -104,26 +113,34 @@ def find_citation_context(text: str, citation: str, window_size: int = 200) -> s
     if not match:
         return ""
     
-    start_pos = max(0, match.start() - window_size)
-    end_pos = min(len(text), match.end() + window_size)
+    # 将文本分割成句子
+    # 使用正则表达式匹配句子，考虑中英文句号、问号和感叹号
+    sentences = re.split(r'(?<=[.。!！?？])\s*', text)
     
-    # 提取上下文
-    context = text[start_pos:end_pos]
+    # 查找包含引用的句子
+    for sentence in sentences:
+        if citation in sentence:
+            return clean_text(sentence)
     
-    # 尝试扩展到完整句子
-    if start_pos > 0:
-        # 向前找到句子开始
-        sentence_start = text.rfind('.', 0, start_pos)
-        if sentence_start != -1:
-            context = text[sentence_start+1:end_pos]
+    # 如果没有找到完整句子（可能是因为句子分割不正确），回退到简单方法
+    # 向前找到句子开始
+    sentence_start = text.rfind('.', 0, match.start())
+    if sentence_start == -1:  # 如果找不到句号，从文本开始
+        sentence_start = 0
+    else:
+        sentence_start += 1  # 跳过句号
     
-    if end_pos < len(text):
-        # 向后找到句子结束
-        sentence_end = text.find('.', end_pos)
-        if sentence_end != -1:
-            context = text[start_pos:sentence_end+1]
+    # 向后找到句子结束
+    sentence_end = text.find('.', match.end())
+    if sentence_end == -1:  # 如果找不到句号，到文本结束
+        sentence_end = len(text)
+    else:
+        sentence_end += 1  # 包含句号
     
-    return clean_text(context)
+    # 提取包含引用的句子
+    citation_sentence = text[sentence_start:sentence_end]
+    
+    return clean_text(citation_sentence)
 
 
 def chunk_text(text: str, chunk_size: int = 4000) -> List[str]:

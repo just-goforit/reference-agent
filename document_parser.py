@@ -183,38 +183,48 @@ class DocumentParser:
         return self.citations
     
     def get_citation_contexts(self, citation: str, window_size: int = 200) -> List[str]:
-        """获取特定引用的上下文
+        """获取特定引用的上下文，只返回包含引用的句子
         
         Args:
             citation: 引用文本
-            window_size: 上下文窗口大小（字符数）
+            window_size: 不再使用，保留参数是为了兼容性
             
         Returns:
-            包含引用的上下文列表
+            包含引用的句子列表
         """
         contexts = []
         escaped_citation = re.escape(citation)
         
-        # 在整个文本中查找引用
-        for match in re.finditer(escaped_citation, self.text_content):
-            start_pos = max(0, match.start() - window_size)
-            end_pos = min(len(self.text_content), match.end() + window_size)
-            
-            # 提取上下文
-            context = self.text_content[start_pos:end_pos]
-            
-            # 尝试扩展到完整句子
-            if start_pos > 0:
-                sentence_start = self.text_content.rfind('.', 0, start_pos)
-                if sentence_start != -1:
-                    context = self.text_content[sentence_start+1:end_pos]
-            
-            if end_pos < len(self.text_content):
-                sentence_end = self.text_content.find('.', end_pos)
-                if sentence_end != -1:
-                    context = self.text_content[start_pos:sentence_end+1]
-            
-            contexts.append(clean_text(context))
+        # 将文本分割成句子
+        # 使用正则表达式匹配句子，考虑中英文句号、问号和感叹号
+        sentences = re.split(r'(?<=[.。!！?？])\s*', self.text_content)
+        
+        # 查找包含引用的句子
+        for sentence in sentences:
+            if citation in sentence:
+                contexts.append(clean_text(sentence))
+        
+        # 如果没有找到任何句子，使用回退方法
+        if not contexts:
+            # 在整个文本中查找引用
+            for match in re.finditer(escaped_citation, self.text_content):
+                # 向前找到句子开始
+                sentence_start = self.text_content.rfind('.', 0, match.start())
+                if sentence_start == -1:  # 如果找不到句号，从文本开始
+                    sentence_start = 0
+                else:
+                    sentence_start += 1  # 跳过句号
+                
+                # 向后找到句子结束
+                sentence_end = self.text_content.find('.', match.end())
+                if sentence_end == -1:  # 如果找不到句号，到文本结束
+                    sentence_end = len(self.text_content)
+                else:
+                    sentence_end += 1  # 包含句号
+                
+                # 提取包含引用的句子
+                citation_sentence = self.text_content[sentence_start:sentence_end]
+                contexts.append(clean_text(citation_sentence))
         
         return contexts
     

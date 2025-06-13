@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-06-13 16:01:30",
+  "reference_check": {
+    "total_references": 2,
+    "total_citations": 2,
+    "unused_references": [],
+    "missing_references": [],
+    "citation_statistics": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": 1,
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": 1
+    },
+    "document_metadata": {
+      "title": "未知标题",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00+00:00",
+      "modified": "2013-12-23 23:15:00+00:00"
+    }
+  },
+  "download_results": {
+    "total_references": 2,
+    "downloaded_references": 2,
+    "results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": "downloads\\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf",
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": "downloads\\Strubell_2019_Energy_and_Policy_Consideratio.pdf"
+    }
+  },
+  "verification_report": {
+    "total_references": 2,
+    "total_citations": 15,
+    "accurate_citations": 4,
+    "inaccurate_citations": 10,
+    "partially_accurate_citations": 1,
+    "error_citations": 0,
+    "reference_summary": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": {
+        "total": 8,
+        "accurate": 1,
+        "inaccurate": 6,
+        "partially_accurate": 1,
+        "error": 0
+      },
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": {
+        "total": 7,
+        "accurate": 3,
+        "inaccurate": 4,
+        "partially_accurate": 0,
+        "error": 0
+      }
+    },
+    "detailed_results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": [
+        {
+          "result": "部分准确",
+          "analysis": "判断：部分准确\n\n详细解释：\n\n1. 引用的事实是否存在于参考文献中：\n- 原文引用提到\"文本分类、问答系统和机器翻译等任务上取得了显著的性能提升\"，这与参考文献中提到的BERT在多种NLP任务上的表现基本一致。参考文献确实提到BERT在问答系统(SQuAD)等任务上取得了state-of-the-art的结果。\n- 但是参考文献中并没有明确提到\"机器翻译\"这一具体任务，这是原文引用中多出的内容。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n- 原文引用使用了\"显著的性能提升\"这一表述，这与参考文献中\"state-of-the-art results\"、\"absolute improvement\"等表述基本相符，没有明显夸大。\n- 但将BERT的表现泛化为\"这些模型\"可能不够准确，因为参考文献主要讨论的是BERT这一个特定模型的表现。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n- 原文引用没有提供具体数据，因此无法直接比较数据一致性。\n- 参考文献中提供了具体的性能提升数据(如GLUE score提高到80.5%，7.7%的绝对提升)，而原文引用只是概括性描述。\n\n综合来看：\n- 引用基本反映了参考文献的主要内容，但存在两个问题：\n  1) 加入了参考文献未提及的\"机器翻译\"任务\n  2) 将BERT的表现泛化为\"这些模型\"可能不够准确\n因此判断为\"部分准确\"。\n\n建议修改为：\n\"研究表明，BERT模型在文本分类、问答系统等自然语言处理任务上取得了显著的性能提升[1]。\"\n这样更准确地反映参考文献的内容。",
+          "citation_text": "研究表明，这些模型在文本分类、问答系统和机器翻译等任务上取得了显著的性能提升[1]。",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "由于提供的\"原文引用\"部分为空（标记为\"1.\"但没有实际引用内容），我无法进行具体的引用核查分析。要完成这项任务，我需要：\n\n1. 实际被核查的引用文本内容\n2. 该引用声称来自参考文献的具体位置\n\n当前情况下，我只能确认：\n1. 提供的参考文献是BERT论文的摘要和部分引言内容\n2. 该论文确实介绍了BERT模型的创新性、双向预训练方法和在多任务上的SOTA表现\n3. 但缺少需要核查的具体引用陈述\n\n建议补充：\n- 需要核查的具体引用文本\n- 该引用声称出自论文的哪个部分（如摘要、实验章节等）\n\n只有在获得这些信息后，才能进行准确的引用核查，分析是否存在事实对应、结论曲解或数据不一致的情况。目前的状态下无法做出准确/不准确的判断。",
+          "citation_text": "1.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "准确",
+          "analysis": "判断：准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n原文引用提到\"BERT(Bidirectional Encoder Representations from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示\"，这与参考文献内容完全一致。参考文献摘要部分明确介绍了BERT的全称和基本特点：\"We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers...BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.\"\n\n2. 引用是否曲解或夸大了参考文献的结论：\n原文引用没有曲解或夸大参考文献的结论。它准确概括了BERT的核心特点：基于Transformer架构和双向上下文学习。参考文献中详细解释了BERT的双向性是通过\"masked language model\"(MLM)实现的，这与引用中\"双向上下文学习\"的描述完全吻合。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n原文引用没有涉及具体的数据或统计信息，只是对BERT的基本概念进行了描述，因此不存在数据一致性的问题。参考文献中虽然包含大量实验数据（如GLUE score 80.5%等），但引用中并未提及这些具体数据，所以不影响引用的准确性。\n\n综上所述，原文引用准确反映了参考文献的核心内容，没有曲解或夸大，也没有涉及可能产生不一致的数据信息。引用简洁而准确地概括了BERT模型的基本特征，与原始文献的描述完全一致。",
+          "citation_text": "BERT(Bidirectional Encoder Representations from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示[1]。",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "判断：**不准确**\n\n详细解释理由：\n\n1. **引用的事实是否存在于参考文献中**  \n   - 原文引用仅提供了作者姓氏 \"Devlin, J.\" 和参考文献编号 \"[1]\"，没有提供任何具体的事实、数据或结论。因此，无法判断引用的事实是否存在于参考文献中，因为引用本身没有包含任何实质性内容。\n\n2. **引用是否曲解或夸大了参考文献的结论**  \n   - 由于引用没有提供任何具体信息，因此无法判断是否存在曲解或夸大。引用仅是一个简单的作者标注，没有涉及参考文献的任何具体内容。\n\n3. **引用的数据或统计信息是否与参考文献一致**  \n   - 同样，引用没有提供任何数据或统计信息，因此无法判断是否与参考文献一致。\n\n总结：  \n原文引用 \"[1] Devlin, J.\" 仅标注了作者和参考文献编号，没有引用任何具体内容（如观点、数据、结论等），因此无法验证其准确性。这种形式的引用是不完整的，无法反映参考文献的实际内容。如果需要引用参考文献的内容，应至少包含具体的观点、数据或结论。  \n\n建议的改进方式：  \n如果引用的是参考文献中关于BERT模型的描述，可以补充具体内容，例如：  \n> Devlin et al. [1] proposed BERT, a bidirectional Transformer model for language understanding, which achieves state-of-the-art performance on multiple NLP tasks.  \n\n这样引用才能与参考文献内容对应，并能够进行准确性核查。",
+          "citation_text": "参考文献 [1] Devlin, J.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "判断：不准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n原文引用只有\"(2018)\"这个年份信息，没有任何具体内容或观点指向。参考文献是BERT论文的完整内容，包含大量具体信息，但原始引用完全没有指向任何特定事实或内容。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n虽然无法说引用曲解了内容（因为根本没有引用具体内容），但这种形式的引用完全不符合学术规范，无法让读者找到引用的具体来源或验证引用内容。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n引用中没有任何数据或统计信息，而参考文献中包含大量具体实验结果（如GLUE score 80.5%，MultiNLI准确率86.7%等）。\n\n这种引用形式存在严重问题：\n- 没有作者信息\n- 没有文章标题\n- 没有具体引用位置\n- 没有引用任何具体观点或数据\n- 不符合任何标准引用格式\n\n正确的学术引用应该至少包含作者和年份（如Devlin et al., 2018），理想情况下还应指明引用的是具体哪个部分或观点。这种只有年份的引用方式完全无法满足学术引用的基本要求，既不能帮助读者定位来源，也不能验证引用内容的准确性。\n\n建议：这种引用应该被标记为不准确/不完整，并要求提供完整的引用信息（至少包含作者和年份）以及具体的引用内容指向。",
+          "citation_text": "(2018).",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "### 判断：不准确\n\n### 详细解释理由：\n\n1. **引用的事实是否存在于参考文献中**  \n   - 原文引用仅提供了“arXiv:1810.”，这是一个不完整的arXiv标识符，缺少完整的版本号和具体内容。参考文献内容实际上是BERT论文的完整摘要和部分正文，但原文引用没有提供足够的信息来对应参考文献中的任何具体内容。\n\n2. **引用是否曲解或夸大了参考文献的结论**  \n   - 由于原文引用不完整，无法判断其是否曲解或夸大了参考文献的结论。引用部分没有提供任何具体的论点、数据或结论，因此无法进行比较。\n\n3. **引用的数据或统计信息是否与参考文献一致**  \n   - 原文引用没有提供任何数据或统计信息，因此无法验证其是否与参考文献一致。\n\n### 总结：\n原文引用“arXiv:1810.”是一个不完整的标识符，没有指向参考文献中的任何具体内容，因此无法认为其准确反映了参考文献的内容。完整的引用应至少包括完整的arXiv标识符（如“arXiv:1810.04805”）以及引用的具体部分（如章节、页码或句子）。当前的引用形式无法支持任何形式的准确性判断。",
+          "citation_text": "arXiv:1810.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "### 判断：不准确\n\n### 详细解释理由：\n\n1. **引用的事实是否存在于参考文献中**  \n   - 原文引用只有\"(2019)\"，没有提供任何具体的事实、数据、结论或观点。这只是一个年份标注，无法对应到参考文献中的任何具体内容。参考文献是一篇关于BERT模型的详细论文，包含大量具体信息，但\"(2019)\"完全没有指向其中的任何部分。\n\n2. **引用是否曲解或夸大了参考文献的结论**  \n   - 由于引用只是一个年份，不存在对参考文献内容的任何解读或总结，因此无法判断是否曲解或夸大。但严格来说，这种引用形式是不完整的，无法支持任何学术论点。\n\n3. **引用的数据或统计信息是否与参考文献一致**  \n   - 引用中没有任何数据或统计信息，而参考文献中包含大量具体数据（如GLUE分数、MultiNLI准确率等），因此无法比较一致性。\n\n### 总结：\n原文引用\"(2019)\"是不完整的学术引用形式，没有指向参考文献中的任何具体内容，因此无法反映参考文献的信息。正确的引用应至少包含作者、年份以及具体的页码或章节（如适用），例如：\n- 正确形式：Devlin et al. (2019) 提出BERT模型通过掩码语言模型实现了深度双向预训练。\n- 或：(Devlin et al., 2019, p. X)  \n\n当前引用无法满足学术规范，故判断为**不准确**。",
+          "citation_text": "(2019).",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "判断：不准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n- 原文引用只提供了\"arXiv:1906\"，这是一个不完整的arXiv标识符（通常格式为arXiv:YYMM.NNNNN）。在提供的参考文献全文中，正确的标识符是\"arXiv:1810.04805v2\"，两者完全不匹配。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n- 由于引用标识符错误，无法判断是否曲解内容。但错误的引用标识本身就是严重问题，可能导致读者找不到正确文献。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n- 同样因为引用标识错误，无法验证数据一致性。\n\n额外问题：\n- 提供的参考文献是著名的BERT论文，但引用格式完全错误\n- 正确的引用应该包含作者、标题和完整arXiv编号（如：Devlin等人(2019) \"BERT: Pre-training...\" arXiv:1810.04805）\n\n结论：这是一个完全不准确的引用，因为：\n1. 引用标识符错误\n2. 没有提供足够信息定位原文\n3. 可能造成读者混淆（1906 vs 1810的年份差异）\n4. 不符合学术引用规范",
+          "citation_text": "arXiv:1906.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        }
+      ],
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": [
+        {
+          "result": "准确",
+          "analysis": "判断：准确\n\n解释：\n1. 引用的事实是否存在于参考文献中：\n   - 原文引用提到\"大型模型带来了计算资源需求增加和环境影响等问题\"，这与参考文献内容完全一致。参考文献的摘要和全文多次强调大型NLP模型训练需要大量计算资源，导致高能耗和显著的环境影响（如碳足迹）。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n   - 引用没有曲解或夸大。参考文献详细讨论了大型模型训练带来的计算成本和环境影响（包括表1中具体的CO2排放数据），引用只是对此进行了概括性表述，没有超出原文范围。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n   - 虽然引用没有使用具体数据，但其所指的\"计算资源需求增加和环境影响\"在参考文献中有详细数据支持（如训练Transformer big模型产生192磅CO2e，神经架构搜索产生626,155磅CO2e等）。\n\n补充说明：\n- 参考文献通过具体案例（如Transformer、ELMo等模型）和量化分析（能源消耗、碳排放计算）充分证明了大型模型带来的计算和环境问题。\n- 引用[2]的表述是对参考文献核心论点的准确概括，没有添加或遗漏重要信息。\n- 参考文献还讨论了这些问题带来的研究公平性、成本等更广泛的影响，但引用仅聚焦于计算资源和环境方面，这种选择性引用是合理且准确的。",
+          "citation_text": "然而，这些大型模型也带来了计算资源需求增加和环境影响等问题[2]。",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "准确",
+          "analysis": "判断：**准确**\n\n解释：\n\n1. **引用的事实是否存在于参考文献中**  \n   原文引用指出“训练大型NLP模型会消耗大量能源并产生相应的碳排放”，这一事实在参考文献中明确提到。例如，摘要部分提到“these accuracy improvements depend on the availability of exceptionally large computational resources that necessitate similarly substantial energy consumption”，并且文中还详细讨论了训练模型的环境成本（如碳排放）和财务成本。表1还提供了具体的碳排放数据（如训练Transformer模型的碳排放量）。\n\n2. **引用是否曲解或夸大了参考文献的结论**  \n   原文引用没有曲解或夸大参考文献的结论。参考文献的核心观点之一确实是大型NLP模型的训练会带来高能耗和碳排放，原文引用准确地概括了这一结论，且没有添加任何主观夸大或曲解的内容。\n\n3. **引用的数据或统计信息是否与参考文献一致**  \n   原文引用没有引用具体数据，而是概括性地描述了参考文献的结论，因此不存在数据不一致的问题。如果引用中提到了具体数据（如碳排放量），则需要核对数据是否与参考文献一致，但此处仅为定性描述，因此无需进一步验证数据。\n\n综上，原文引用准确地反映了参考文献的内容，且未出现曲解、夸大或数据不一致的问题。",
+          "citation_text": "Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "准确",
+          "analysis": "由于用户提供的\"原文引用\"部分为空（只有数字1和2，没有实际引用内容），我无法进行具体的引用核查分析。作为学术引用核查助手，我需要同时看到具体的引用内容和被引用的参考文献内容才能进行比对分析。\n\n当前情况下，我只能确认以下几点：\n\n1. 参考文献内容完整提供了arXiv:1906.02243v1这篇关于深度学习在NLP中能源和政策考量的论文全文\n2. 论文确实讨论了训练大型NLP模型的环境成本和能源消耗问题\n3. 文中包含具体的碳排放数据比较表格(表1)和能源来源分析(表2)\n4. 论文提出了减少成本和改善NLP研究公平性的具体建议\n\n但由于缺少具体的\"原文引用\"内容，我无法：\n- 判断引用的事实是否存在于参考文献中\n- 评估引用是否有曲解或夸大\n- 核对引用数据是否准确\n\n建议提供完整的引用内容后重新提交核查请求。完整的引用核查需要同时看到引用方如何使用该文献以及被引用文献的原始内容才能做出准确判断。\n\n当前状态：无法判断（因缺少引用内容）",
+          "citation_text": "2.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "判断：不准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n- 原文引用只有\"(2018)\"这个年份信息，没有任何具体内容或观点指向。参考文献内容是一篇2019年发表的论文(arXiv提交日期为2019年6月5日)，题目是\"Energy and Policy Considerations for Deep Learning in NLP\"。\n- 参考文献中确实提到了2018年的相关工作(如Strubell et al., 2018)，但这不是论文本身的发表年份。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n- 由于引用只提供了一个孤立的年份\"(2018)\"，没有具体内容，无法判断是否曲解或夸大。但这种形式的引用完全无法对应参考文献的任何实质性内容。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n- 引用中没有提供任何数据或统计信息，而参考文献中包含大量具体数据(如CO2排放量、能源消耗等)。\n\n补充说明：\n- 参考文献的实际发表年份是2019年(arXiv版本v1)，不是2018年\n- 这种只有年份的引用方式在学术写作中是不规范的，无法让读者定位到具体内容\n- 正确的引用应该至少包含作者姓氏和年份(如Strubell et al., 2019)，最好还能指明具体章节或观点\n\n结论：这是一个完全不准确的引用，既没有正确反映文献的发表年份，也没有指向任何具体内容。",
+          "citation_text": "(2018).",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "判断：不准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n- 原文引用仅提供了作者姓氏\"Strubell, E.\"，没有提供任何具体引用内容或页码。这种形式的引用完全无法判断所引用的具体事实或内容是否存在于参考文献中。完整的学术引用应至少包含作者、年份和具体引用的页码或章节。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n- 由于没有提供具体的引用内容，无法判断是否存在曲解或夸大。但仅提供作者姓氏的引用方式本身就是不规范的，不能反映任何具体内容。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n- 同样由于缺乏具体引用内容，无法验证任何数据或统计信息的一致性。参考文献中包含大量具体数据（如CO2排放量、能源消耗等），但引用中没有指向任何特定数据。\n\n改进建议：\n完整的引用应至少包含：\n1) 作者全名或完整姓氏\n2) 发表年份\n3) 引用的具体页码或章节\n4) 引用的具体内容或观点\n\n例如正确引用应为：\n(Strubell et al., 2019, p.3)指出\"训练最先进的NLP模型现在需要大量计算资源，这些资源需要可观的能源消耗，以及相关的财务和环境成本。\"\n\n或至少：\n(Strubell et al., 2019)\n\n当前仅提供\"Strubell, E.\"的引用方式完全不符合学术规范，无法验证其准确性，因此判断为不准确。",
+          "citation_text": "[2] Strubell, E.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "判断：不准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n原文引用只有\"(2019)\"这个年份信息，没有提供任何具体的事实、数据或观点。参考文献内容是一篇完整的论文，包含大量具体信息（如模型训练成本、碳排放数据、方法论等），但原始引用完全没有指向任何具体内容。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n由于原始引用只是一个孤立的年份，既没有反映也没有曲解参考文献的任何结论。这属于典型的\"空引用\"问题，即引用标记存在但未指向任何实质性内容。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n原始引用中完全没有任何数据或统计信息，而参考文献中包含大量具体数据（如表格1中的CO2排放比较数据、公式1-2的计算方法等），因此无法验证一致性。\n\n总结：这是一个无效引用。根据学术规范，引用必须明确指向参考文献中的具体内容（观点、数据或方法），而单独的出版年份不能构成有效引用。正确的引用应该至少包含作者姓氏和具体引用的页面/章节信息（如：Strubell et al., 2019, p.3 或 Strubell et al., 2019, Table 1）。",
+          "citation_text": "(2019).",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "不准确",
+          "analysis": "判断：不准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n- 原文引用仅提供了\"02243\"这一数字，这看起来像是arXiv编号的后半部分（完整编号应为arXiv:1906.02243）。然而，这个孤立的数字本身并不构成任何有意义的事实引用，无法对应到参考文献中的任何具体内容。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n- 由于引用内容过于简略且不完整，无法判断是否存在曲解或夸大。但可以确定的是，这种不完整的引用形式本身就构成了对参考文献的不准确表示。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n- 引用中没有任何数据或统计信息可以与参考文献内容进行比较验证。\n\n总结：\n该引用完全不满足学术引用的基本要求：\n1) 没有提供完整的文献标识（应包含arXiv完整编号）\n2) 没有引用任何具体内容或观点\n3) 没有指明引用位置（如章节、页码等）\n4) 孤立的数字\"02243\"对读者理解文献内容毫无帮助\n\n正确的引用应该至少包含完整文献标识和具体引用内容，例如：\n\"Strubell等人(2019)在arXiv:1906.02243中指出，训练大型NLP模型会产生显著的碳排放，如训练一个Transformer模型会产生192磅CO₂排放（见表1）。\"\n\n因此，当前提供的引用形式应被判定为\"不准确\"。",
+          "citation_text": "02243.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        }
+      ]
+    }
+  }
+}

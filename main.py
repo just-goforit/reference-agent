@@ -528,6 +528,7 @@ def main():
             if not references:
                 parser = DocumentParser(args.input)
                 references = parser.parse_references()
+            logger.info(f"参考文献列表: {references}")
             download_results = download_references(references)
         
         # 引文内容核查

@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-06-13 11:45:02",
+  "reference_check": {
+    "total_references": 2,
+    "total_citations": 2,
+    "unused_references": [],
+    "missing_references": [],
+    "citation_statistics": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": 1,
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": 1
+    },
+    "document_metadata": {
+      "title": "未知标题",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00+00:00",
+      "modified": "2013-12-23 23:15:00+00:00"
+    }
+  },
+  "download_results": {
+    "total_references": 2,
+    "downloaded_references": 2,
+    "results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": "downloads\\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf",
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": "downloads\\Strubell_2019_Energy_and_Policy_Consideratio.pdf"
+    }
+  },
+  "verification_report": {
+    "total_references": 2,
+    "total_citations": 17,
+    "accurate_citations": 0,
+    "inaccurate_citations": 0,
+    "partially_accurate_citations": 0,
+    "error_citations": 17,
+    "reference_summary": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": {
+        "total": 9,
+        "accurate": 0,
+        "inaccurate": 0,
+        "partially_accurate": 0,
+        "error": 9
+      },
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": {
+        "total": 8,
+        "accurate": 0,
+        "inaccurate": 0,
+        "partially_accurate": 0,
+        "error": 8
+      }
+    },
+    "detailed_results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": [
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "基于Transformer的自然语言处理研究 摘要 本文简要讨论了基于Transformer架构的自然语言处理模型的最新进展。我们重点关注BERT和GPT等预训练语言模型在各种NLP任务中的应用。研究表明，这些模型在文本分类、问答系统和机器翻译等任务上取得了显著的性能提升[1]。然而，这些大型模型也带来了计算资源需求增加和环境影响等问题[2]。 1. 引言 自然语言处理(NLP)领域在近年来取得了显著进展，主要得益于Transformer架构的提出和预训练语言模型的发展。Transformer模型通过自注意力机制有效捕捉序列中的长距离依赖关系，为各种NLP任务提供了强大的基础。 BERT(Bidirectional Encoder Representations from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示[1]。BERT的出现显著提高了多种NLP任务的性能基准，包括文本分类、命名实体识别和问答系统等。 随着模型规模的不断扩大，研究人员也开始关注这些大型语言模型的环境影响和计算成本。Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。 2.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "基于Transformer的自然语言处理研究 摘要 本文简要讨论了基于Transformer架构的自然语言处理模型的最新进展。我们重点关注BERT和GPT等预训练语言模型在各种NLP任务中的应用。研究表明，这些模型在文本分类、问答系统和机器翻译等任务上取得了显著的性能提升[1]。然而，这些大型模型也带来了计算资源需求增加和环境影响等问题[2]。 1. 引言 自然语言处理(NLP)领域在近年来取得了显著进展，主要得益于Transformer架构的提出和预训练语言模型的发展。Transformer模型通过自注意力机制有效捕捉序列中的长距离依赖关系，为各种NLP任务提供了强大的基础。 BERT(Bidirectional Encoder Representations from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示[1]。BERT的出现显著提高了多种NLP任务的性能基准，包括文本分类、命名实体识别和问答系统等。 随着模型规模的不断扩大，研究人员也开始关注这些大型语言模型的环境影响和计算成本。Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。 2.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "著进展，主要得益于Transformer架构的提出和预训练语言模型的发展。Transformer模型通过自注意力机制有效捕捉序列中的长距离依赖关系，为各种NLP任务提供了强大的基础。 BERT(Bidirectional Encoder Representations from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示[1]。BERT的出现显著提高了多种NLP任务的性能基准，包括文本分类、命名实体识别和问答系统等。 随着模型规模的不断扩大，研究人员也开始关注这些大型语言模型的环境影响和计算成本。Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。 2. 结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "环境影响和计算成本。Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。 2. 结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": ". 结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        }
+      ],
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": [
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "基于Transformer的自然语言处理研究 摘要 本文简要讨论了基于Transformer架构的自然语言处理模型的最新进展。我们重点关注BERT和GPT等预训练语言模型在各种NLP任务中的应用。研究表明，这些模型在文本分类、问答系统和机器翻译等任务上取得了显著的性能提升[1]。然而，这些大型模型也带来了计算资源需求增加和环境影响等问题[2]。 1. 引言 自然语言处理(NLP)领域在近年来取得了显著进展，主要得益于Transformer架构的提出和预训练语言模型的发展。Transformer模型通过自注意力机制有效捕捉序列中的长距离依赖关系，为各种NLP任务提供了强大的基础。 BERT(Bidirectional Encoder Representations from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示[1]。BERT的出现显著提高了多种NLP任务的性能基准，包括文本分类、命名实体识别和问答系统等。 随着模型规模的不断扩大，研究人员也开始关注这些大型语言模型的环境影响和计算成本。Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。 2.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "ons from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示[1]。BERT的出现显著提高了多种NLP任务的性能基准，包括文本分类、命名实体识别和问答系统等。 随着模型规模的不断扩大，研究人员也开始关注这些大型语言模型的环境影响和计算成本。Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。 2. 结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018).",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示[1]。BERT的出现显著提高了多种NLP任务的性能基准，包括文本分类、命名实体识别和问答系统等。 随着模型规模的不断扩大，研究人员也开始关注这些大型语言模型的环境影响和计算成本。Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。 2. 结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018).",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "2. 结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "结论 基于Transformer的预训练语言模型已经成为NLP领域的主流技术，在多种任务上取得了显著成功。然而，随着模型规模的增长，计算资源需求和环境影响也成为亟待解决的问题。未来的研究方向包括开发更高效的模型架构和训练方法，以及探索如何在保持性能的同时减少资源消耗。 参考文献 [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "错误",
+          "analysis": "验证过程中发生错误: Error code: 400 - {'error': {'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}",
+          "citation_text": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805. [2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        }
+      ]
+    }
+  }
+}

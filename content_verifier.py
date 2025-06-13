@@ -88,6 +88,7 @@ class ContentVerifier:
             验证结果字典
         """
         logger.info(f"验证引用内容: {citation_text[:50]}...")
+        logger.info(f"参考文献内容: {reference_text[:50]}...")
         
         try:
             # 准备提示
@@ -104,7 +105,7 @@ class ContentVerifier:
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.1,
-                max_tokens=1000
+                max_tokens=8 * (2 ** 10)
             )
             
             # 解析响应
@@ -112,13 +113,13 @@ class ContentVerifier:
             
             # 提取判断结果
             result = "未知"
-            if re.search(r'准确', analysis, re.IGNORECASE):
-                result = "准确"
-            elif re.search(r'不准确', analysis, re.IGNORECASE):
+            if re.search(r'不准确', analysis, re.IGNORECASE):
                 result = "不准确"
             elif re.search(r'部分准确', analysis, re.IGNORECASE):
                 result = "部分准确"
-            
+            elif re.search(r'准确', analysis, re.IGNORECASE):
+                result = "准确"
+
             verification_result = {
                 "result": result,
                 "analysis": analysis,
@@ -127,6 +128,7 @@ class ContentVerifier:
             }
             
             logger.info(f"验证结果: {result}")
+            logger.info(f"分析: {analysis}")
             return verification_result
             
         except Exception as e:

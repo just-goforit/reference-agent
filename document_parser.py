@@ -24,6 +24,7 @@ class DocumentParser:
         self.file_path = file_path
         self.document = None
         self.text_content = ""
+        self.content_without_references = ""
         self.paragraphs = []
         self.references_section = ""
         self.references = []
@@ -43,8 +44,8 @@ class DocumentParser:
             
             # 提取文本内容
             self.paragraphs = self.document.paragraphs
-            self.text_content = "\n".join([p.text for p in self.paragraphs])
-            
+            self.text_content = "\n".join([p.text for p in self.paragraphs])            
+
         except Exception as e:
             logger.error(f"加载文档失败: {str(e)}")
             raise
@@ -83,6 +84,14 @@ class DocumentParser:
         
         self.references_section = "\n".join(references_text)
         logger.info(f"提取到参考文献部分，长度: {len(self.references_section)} 字符")
+
+        # 排除参考文献部分的文本
+        if self.references_section:
+            # 找到参考文献部分的起始位置
+            ref_start = self.text_content.find(self.references_section)
+            if ref_start != -1:
+                # 只使用参考文献部分之前的文本
+                self.content_without_references = self.text_content[:ref_start]
         
         return self.references_section
     
@@ -191,7 +200,7 @@ class DocumentParser:
             matches = re.findall(pattern, text_without_references)
             # matcher去重
             matches = list(set(matches))
-            
+
             for citation in matches:
                 # 过滤掉不应该被视为引用的文本
                 # 排除 arXiv 标识符

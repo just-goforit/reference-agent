@@ -130,7 +130,7 @@ def verify_citations(parser: DocumentParser, reference_checker: ReferenceChecker
     logger.info(f"引用内容映射示例: {citation_map}")
     # 验证引用内容
     verifier = ContentVerifier()
-    verification_results = verifier.batch_verify_citations(citation_map, pdf_map)
+    verification_results = verifier.batch_verify_citations(citation_map, pdf_map, parser.content_without_references)
     
     # 生成验证报告
     report = verifier.generate_verification_report(verification_results)
@@ -548,6 +548,7 @@ def main():
             checker = ReferenceChecker(parser)
             
             # 验证引用内容
+            parser.parse_references()
             verification_report = verify_citations(parser, checker, download_results)
         
         # 保存报告

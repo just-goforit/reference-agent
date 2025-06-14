@@ -8,7 +8,7 @@ import PyPDF2
 import pdfplumber
 import openai
 
-from config import DEEPSEEK_API_KEY, DEEPSEEK_API_BASE, DEEPSEEK_MODEL, CONTENT_VERIFICATION_PROMPT
+from config import DEEPSEEK_API_KEY, DEEPSEEK_API_BASE, DEEPSEEK_MODEL, CONTENT_VERIFICATION_PROMPT, NEW_CONTENT_VERIFICATION_PROMPT
 from utils import chunk_text, find_citation_context, logger
 
 
@@ -77,7 +77,7 @@ class ContentVerifier:
         
         return text
     
-    def verify_citation(self, citation_text: str, reference_text: str) -> Dict[str, Any]:
+    def verify_citation(self, citation_text: str, reference_text: str, content_without_references: str) -> Dict[str, Any]:
         """验证引用内容是否准确
         
         Args:
@@ -91,35 +91,49 @@ class ContentVerifier:
         logger.info(f"参考文献内容: {reference_text[:50]}...")
         
         try:
-            # 准备提示
-            prompt = CONTENT_VERIFICATION_PROMPT.format(
+            prompt = NEW_CONTENT_VERIFICATION_PROMPT.format(
                 citation_text=citation_text,
-                reference_text=reference_text[:10000]  # 限制参考文献内容长度
+                reference_text=reference_text[:10000],
+                text_content=content_without_references
             )
             
-            # 调用DeepSeek API
             response = self.client.chat.completions.create(
                 model=DEEPSEEK_MODEL,
                 messages=[
-                    {"role": "system", "content": "你是一个学术引用核查助手，负责判断引用内容是否准确反映了参考文献的内容。"},
+                    {"role": "system", "content": "请严格按照要求的格式输出完整分析"},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.1,
                 max_tokens=8 * (2 ** 10)
             )
             
-            # 解析响应
             analysis = response.choices[0].message.content
-            
-            # 提取判断结果
+            logger.info(f"原始分析内容:\n{analysis}")  # 添加详细日志
+            # 验证响应格式
+            required_sections = ["[判断结果]", "[上下文分析]", "[核查报告]"]
+            if not all(section in analysis for section in required_sections):
+                logger.warning("响应格式不完整，尝试补充标记")
+                analysis = f"{analysis}\n\n[注意]以上内容缺少必要分析部分"
+            # 精确提取判断结果
             result = "未知"
-            if re.search(r'不准确', analysis, re.IGNORECASE):
-                result = "不准确"
-            elif re.search(r'部分准确', analysis, re.IGNORECASE):
-                result = "部分准确"
-            elif re.search(r'准确', analysis, re.IGNORECASE):
-                result = "准确"
-
+            judgment_match = re.search(r'\[判断结果\]\s*([^\n]+)', analysis)
+            if judgment_match:
+                result_line = judgment_match.group(1).strip()
+                if re.search(r'不准确', result_line):
+                    result = "不准确"
+                elif re.search(r'部分准确', result_line):
+                    result = "部分准确"
+                elif re.search(r'准确', result_line):
+                    result = "准确"
+            
+            # 回退机制
+            if result == "未知":
+                if re.search(r'不准确', analysis, re.IGNORECASE):
+                    result = "不准确"
+                elif re.search(r'部分准确', analysis, re.IGNORECASE):
+                    result = "部分准确"
+                elif re.search(r'准确', analysis, re.IGNORECASE):
+                    result = "准确"
             verification_result = {
                 "result": result,
                 "analysis": analysis,
@@ -128,9 +142,8 @@ class ContentVerifier:
             }
             
             logger.info(f"验证结果: {result}")
-            logger.info(f"分析: {analysis}")
             return verification_result
-            
+
         except Exception as e:
             logger.error(f"验证引用内容失败: {str(e)}")
             return {
@@ -140,7 +153,7 @@ class ContentVerifier:
                 "reference_text_sample": reference_text[:500] + "..."
             }
     
-    def verify_document_citations(self, citations: List[str], pdf_path: str) -> List[Dict[str, Any]]:
+    def verify_document_citations(self, citations: List[str], pdf_path: str, content_without_references: str) -> List[Dict[str, Any]]:
         """
         验证文档中的所有引用
         
@@ -175,16 +188,16 @@ class ContentVerifier:
             if isinstance(contexts, list):
                 for context in contexts:
                     # 验证引用
-                    result = self.verify_citation(context, reference_text)
+                    result = self.verify_citation(context, reference_text, content_without_references)
                     verification_results.append(result)
             else:
                 # 兼容旧版本，直接使用引用内容作为上下文
-                result = self.verify_citation(contexts, reference_text)
+                result = self.verify_citation(contexts, reference_text, content_without_references)
                 verification_results.append(result)
         
         return verification_results
     
-    def batch_verify_citations(self, citation_map: Dict[str, List[str]], pdf_map: Dict[str, str]) -> Dict[str, List[Dict[str, Any]]]:
+    def batch_verify_citations(self, citation_map: Dict[str, List[str]], pdf_map: Dict[str, str], content_without_references: str) -> Dict[str, List[Dict[str, Any]]]:
         """批量验证引用
         
         Args:
@@ -212,7 +225,7 @@ class ContentVerifier:
             
             # 验证引用
             pdf_path = pdf_map[reference]
-            results = self.verify_document_citations(contexts, pdf_path)
+            results = self.verify_document_citations(contexts, pdf_path, content_without_references)
             verification_results[reference] = results
         
         return verification_results

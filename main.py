@@ -12,7 +12,7 @@ from reference_checker import ReferenceChecker
 from arxiv_downloader import ArxivDownloader
 from content_verifier import ContentVerifier
 from config import OUTPUT_DIR
-from utils import logger
+from utils import logger, normalize_citation
 
 
 def parse_arguments():
@@ -111,14 +111,23 @@ def verify_citations(parser: DocumentParser, reference_checker: ReferenceChecker
     """
     logger.info("开始验证引用内容")
     
-    # 构建引用上下文映射
+    # 确保映射表已构建
+    if not reference_checker.reference_map:
+        reference_checker._build_reference_map()
+    
+    # 构建引用内容映射
     citation_map = {}
     for i, reference in enumerate(reference_checker.references):
         if reference in pdf_map:
-            contexts = reference_checker.get_reference_contexts(i)
-            if contexts:
-                citation_map[reference] = contexts
+            # 直接使用引用内容，不获取上下文
+            citations = [citation for citation in reference_checker.citations 
+                        if normalize_citation(citation) in reference_checker.reference_map 
+                        and reference_checker.reference_map[normalize_citation(citation)] == i]
+            if citations:
+                citation_map[reference] = citations
     
+    logger.info(f"构建引用内容映射，共 {len(citation_map)} 条")
+    logger.info(f"引用内容映射示例: {citation_map}")
     # 验证引用内容
     verifier = ContentVerifier()
     verification_results = verifier.batch_verify_citations(citation_map, pdf_map)

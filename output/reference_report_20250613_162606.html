@@ -1,0 +1,184 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reference Agent 报告</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            h1, h2, h3 {
+                color: #2c3e50;
+            }
+            .card {
+                background: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            .stat {
+                display: inline-block;
+                background: #f8f9fa;
+                border-radius: 4px;
+                padding: 10px 15px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+            .stat strong {
+                display: block;
+                font-size: 20px;
+                color: #3498db;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            th, td {
+                padding: 12px 15px;
+                text-align: left;
+                border-bottom: 1px solid #e1e1e1;
+            }
+            th {
+                background-color: #f8f9fa;
+            }
+            .accurate {
+                color: #27ae60;
+            }
+            .inaccurate {
+                color: #e74c3c;
+            }
+            .partial {
+                color: #f39c12;
+            }
+            .error {
+                color: #7f8c8d;
+            }
+            .reference-item {
+                margin-bottom: 10px;
+                padding: 10px;
+                background-color: #f8f9fa;
+                border-radius: 4px;
+            }
+            .citation-context {
+                margin: 10px 0;
+                padding: 10px;
+                background-color: #ecf0f1;
+                border-left: 4px solid #3498db;
+                border-radius: 0 4px 4px 0;
+            }
+            .analysis {
+                margin: 10px 0;
+                padding: 10px;
+                background-color: #f5f5f5;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Reference Agent 报告</h1>
+            <p>生成时间: 2025-06-13 16:26:06</p>
+            
+            <div class="card">
+                <h2>引文核查摘要</h2>
+                <div class="stat">
+                    <strong>2</strong>
+                    参考文献总数
+                </div>
+                <div class="stat">
+                    <strong>2</strong>
+                    引用总数
+                </div>
+                <div class="stat">
+                    <strong>0</strong>
+                    未被引用的参考文献
+                </div>
+                <div class="stat">
+                    <strong>0</strong>
+                    引用但未在参考文献中的引用
+                </div>
+            </div>
+            
+            {{#has_download_results}}
+            <div class="card">
+                <h2>文献下载摘要</h2>
+                <div class="stat">
+                    <strong>2</strong>
+                    成功下载的文献数
+                </div>
+                <div class="stat">
+                    <strong>100%</strong>
+                    下载成功率
+                </div>
+            </div>
+            {{/has_download_results}}
+            
+            {{#has_verification_results}}
+            <div class="card">
+                <h2>引用内容核查摘要</h2>
+                <div class="stat">
+                    <strong>0</strong>
+                    已验证的引用总数
+                </div>
+                <div class="stat">
+                    <strong class="accurate">0</strong>
+                    准确的引用
+                </div>
+                <div class="stat">
+                    <strong class="partial">0</strong>
+                    部分准确的引用
+                </div>
+                <div class="stat">
+                    <strong class="inaccurate">0</strong>
+                    不准确的引用
+                </div>
+                <div class="stat">
+                    <strong class="error">0</strong>
+                    验证出错的引用
+                </div>
+            </div>
+            {{/has_verification_results}}
+            
+            <div class="card">
+                <h2>未被引用的参考文献</h2>
+                
+                
+                <p>没有未被引用的参考文献。</p>
+                
+            </div>
+            
+            <div class="card">
+                <h2>引用但未在参考文献中的引用</h2>
+                
+                
+                <p>没有引用但未在参考文献中的引用。</p>
+                
+            </div>
+            
+            {{#has_verification_results}}
+            <div class="card">
+                <h2>引用内容核查详情</h2>
+                
+                <h3>参考文献</h3>
+                <div class="reference-item">{{reference}}</div>
+                
+                
+                
+            </div>
+            {{/has_verification_results}}
+        </div>
+    </body>
+    </html>
+    

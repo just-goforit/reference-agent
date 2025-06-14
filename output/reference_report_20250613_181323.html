@@ -1,0 +1,240 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reference Agent 报告</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            h1, h2, h3 {
+                color: #2c3e50;
+            }
+            .card {
+                background: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            .stat {
+                display: inline-block;
+                background: #f8f9fa;
+                border-radius: 4px;
+                padding: 10px 15px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+            .stat strong {
+                display: block;
+                font-size: 20px;
+                color: #3498db;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            th, td {
+                padding: 12px 15px;
+                text-align: left;
+                border-bottom: 1px solid #e1e1e1;
+            }
+            th {
+                background-color: #f8f9fa;
+            }
+            .accurate {
+                color: #27ae60;
+            }
+            .inaccurate {
+                color: #e74c3c;
+            }
+            .partial {
+                color: #f39c12;
+            }
+            .error {
+                color: #7f8c8d;
+            }
+            .reference-item {
+                margin-bottom: 10px;
+                padding: 10px;
+                background-color: #f8f9fa;
+                border-radius: 4px;
+            }
+            .citation-context {
+                margin: 10px 0;
+                padding: 10px;
+                background-color: #ecf0f1;
+                border-left: 4px solid #3498db;
+                border-radius: 0 4px 4px 0;
+            }
+            .analysis {
+                margin: 10px 0;
+                padding: 10px;
+                background-color: #f5f5f5;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Reference Agent 报告</h1>
+            <p>生成时间: 2025-06-13 18:13:23</p>
+            
+            <div class="card">
+                <h2>引文核查摘要</h2>
+                <div class="stat">
+                    <strong>2</strong>
+                    参考文献总数
+                </div>
+                <div class="stat">
+                    <strong>2</strong>
+                    引用总数
+                </div>
+                <div class="stat">
+                    <strong>0</strong>
+                    未被引用的参考文献
+                </div>
+                <div class="stat">
+                    <strong>0</strong>
+                    引用但未在参考文献中的引用
+                </div>
+            </div>
+            
+            {{#has_download_results}}
+            <div class="card">
+                <h2>文献下载摘要</h2>
+                <div class="stat">
+                    <strong>2</strong>
+                    成功下载的文献数
+                </div>
+                <div class="stat">
+                    <strong>100%</strong>
+                    下载成功率
+                </div>
+            </div>
+            {{/has_download_results}}
+            
+            {{#has_verification_results}}
+            <div class="card">
+                <h2>引用内容核查摘要</h2>
+                <div class="stat">
+                    <strong>2</strong>
+                    已验证的引用总数
+                </div>
+                <div class="stat">
+                    <strong class="accurate">0</strong>
+                    准确的引用
+                </div>
+                <div class="stat">
+                    <strong class="partial">0</strong>
+                    部分准确的引用
+                </div>
+                <div class="stat">
+                    <strong class="inaccurate">2</strong>
+                    不准确的引用
+                </div>
+                <div class="stat">
+                    <strong class="error">0</strong>
+                    验证出错的引用
+                </div>
+            </div>
+            {{/has_verification_results}}
+            
+            <div class="card">
+                <h2>未被引用的参考文献</h2>
+                
+                
+                <p>没有未被引用的参考文献。</p>
+                
+            </div>
+            
+            <div class="card">
+                <h2>引用但未在参考文献中的引用</h2>
+                
+                
+                <p>没有引用但未在参考文献中的引用。</p>
+                
+            </div>
+            
+            {{#has_verification_results}}
+            <div class="card">
+                <h2>引用内容核查详情</h2>
+                
+                <h3>参考文献</h3>
+                <div class="reference-item">{{reference}}</div>
+                
+                <h3>参考文献</h3>
+<div class="reference-item">[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.</div>
+
+                <div class="citation-context">
+                    <strong class="inaccurate">不准确</strong>
+                    <p>1</p>
+                    <div class="analysis">
+                        <strong>分析:</strong>
+                        <p>### 判断：不准确
+
+### 详细解释理由：
+
+1. **引用的事实是否存在于参考文献中**  
+   - 原文引用仅包含数字"1"，没有任何具体内容或事实陈述。参考文献是一篇关于BERT模型的详细论文，包含大量具体信息（如模型架构、预训练方法、实验结果等），但原文引用完全没有提及任何这些内容。因此，无法确认引用的事实是否存在于参考文献中。
+
+2. **引用是否曲解或夸大了参考文献的结论**  
+   - 由于原文引用是空的（仅"1"），无法判断是否存在曲解或夸大。引用未提供任何结论或观点，因此无法与参考文献的内容进行比较。
+
+3. **引用的数据或统计信息是否与参考文献一致**  
+   - 原文引用未提供任何数据或统计信息，而参考文献中包含大量实验数据（如GLUE分数、MultiNLI准确率等）。因此，无法验证一致性。
+
+### 总结：  
+原文引用"1"完全未反映参考文献的任何内容，既未提取具体信息，也未提供任何可验证的引用点。这种引用方式无法满足学术引用的基本要求，因此判断为**不准确**。正确的引用应至少包含一个具体的观点、数据或结论，并明确指向参考文献的相应部分。</p>
+                    </div>
+                </div>
+                <h3>参考文献</h3>
+<div class="reference-item">[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.</div>
+
+                <div class="citation-context">
+                    <strong class="inaccurate">不准确</strong>
+                    <p>2</p>
+                    <div class="analysis">
+                        <strong>分析:</strong>
+                        <p>判断：不准确
+
+详细解释理由：
+
+1. 引用的事实是否存在于参考文献中：
+- 原文引用仅提供了一个数字"2"，而参考文献内容是一篇完整的学术论文，讨论的是深度学习在NLP中的能源和政策考虑。数字"2"在参考文献中没有任何对应内容或含义。
+
+2. 引用是否曲解或夸大了参考文献的结论：
+- 由于引用内容与参考文献完全无关，这不仅是曲解，更是完全错误的引用。参考文献讨论的是NLP模型的能源消耗和环境成本，而引用提供的数字"2"没有任何关联性。
+
+3. 引用的数据或统计信息是否与参考文献一致：
+- 参考文献中包含多个具体数据（如CO2排放量、训练时间等），但都与数字"2"无关。文中提到的数字包括1984（航空旅行排放）、78,468（带调优的实验排放）等，但没有与"2"相关的数据。
+
+结论：
+这是一个完全不准确的引用，因为：
+1) 引用内容与参考文献毫无关联
+2) 没有正确指向参考文献的任何部分
+3) 没有反映参考文献的任何核心内容或数据
+4) 可能是一个错误的引用标记或遗漏了实际引用内容
+
+正确的学术引用应该明确指出参考文献中的具体内容或观点，而非提供一个无意义的数字。</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            {{/has_verification_results}}
+        </div>
+    </body>
+    </html>
+    

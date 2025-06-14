@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-06-14 10:42:20",
+  "reference_check": {
+    "total_references": 2,
+    "total_citations": 2,
+    "unused_references": [],
+    "missing_references": [],
+    "citation_statistics": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": 1,
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": 1
+    },
+    "document_metadata": {
+      "title": "未知标题",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00+00:00",
+      "modified": "2013-12-23 23:15:00+00:00"
+    }
+  },
+  "download_results": {
+    "total_references": 2,
+    "downloaded_references": 2,
+    "results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": "downloads\\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf",
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": "downloads\\Strubell_2019_Energy_and_Policy_Consideratio.pdf"
+    }
+  },
+  "verification_report": {
+    "total_references": 2,
+    "total_citations": 2,
+    "accurate_citations": 0,
+    "inaccurate_citations": 2,
+    "partially_accurate_citations": 0,
+    "error_citations": 0,
+    "reference_summary": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": {
+        "total": 1,
+        "accurate": 0,
+        "inaccurate": 1,
+        "partially_accurate": 0,
+        "error": 0
+      },
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": {
+        "total": 1,
+        "accurate": 0,
+        "inaccurate": 1,
+        "partially_accurate": 0,
+        "error": 0
+      }
+    },
+    "detailed_results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": [
+        {
+          "result": "不准确",
+          "analysis": "由于原文引用部分只提供了一个数字\"1\"，没有提供任何具体的引用内容或主张，因此无法进行有效的核查和分析。要判断引用是否准确，需要知道：\n\n1. 原文中具体引用了参考文献的哪些内容\n2. 引用的具体表述是什么\n3. 引用的上下文是什么\n\n在目前提供的信息中：\n- 参考文献是BERT论文的摘要和部分内容\n- 但原文引用部分没有提供任何实质性内容\n\n判断：不准确（由于缺乏可核查的引用内容）\n\n建议提供：\n1. 原文中具体的引用表述\n2. 引用的具体位置或页码\n3. 引用的上下文信息\n\n只有这样，才能进行有意义的引用核查，分析引用是否准确反映了参考文献的内容。目前的\"1\"可能只是一个引用标记，没有提供足够的信息来进行核查。",
+          "citation_text": "1",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        }
+      ],
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": [
+        {
+          "result": "不准确",
+          "analysis": "判断：不准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n- 原文引用仅提供了一个数字\"2\"，没有任何上下文或说明。在提供的参考文献内容中，没有任何地方直接提到或可以对应这个数字\"2\"。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n- 由于引用内容过于简略且缺乏上下文，无法判断是否曲解或夸大了参考文献的结论。但可以确定的是，这个孤立的数字\"2\"完全不能反映参考文献的任何内容或结论。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n- 参考文献中确实包含多个具体数据（如CO2排放量、训练时间等），但没有一个数据是简单的\"2\"。因此这个引用与参考文献中的数据完全不一致。\n\n总结：这个引用完全不准确，因为它：\n1) 没有提供任何可验证的引用点\n2) 与参考文献中的任何内容都不对应\n3) 缺乏必要的上下文使其成为有意义的引用\n4) 不能反映参考文献的任何主要观点或数据\n\n正确的学术引用应该明确指出引用的具体内容在文献中的位置（如章节、表格或页码），并提供足够的上下文使读者能够验证引用的准确性。",
+          "citation_text": "2",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        }
+      ]
+    }
+  }
+}

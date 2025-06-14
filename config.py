@@ -24,7 +24,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # 引文核查配置
 CITATION_PATTERNS = [
-    r"\[(\d+)\]",  # [1], [2], etc.
+    r"\[\d+\]",  # [1], [2], etc.
     r"\(([A-Za-z]+\s*et\s*al\.?\s*,\s*\d{4}[a-z]?)\)",  # (Smith et al., 2020)
     r"([A-Za-z]+\s*et\s*al\.?\s*,\s*\d{4}[a-z]?)",  # Smith et al., 2020
     r"\(([A-Za-z]+\s*and\s*[A-Za-z]+\s*,\s*\d{4}[a-z]?)\)",  # (Smith and Jones, 2020)

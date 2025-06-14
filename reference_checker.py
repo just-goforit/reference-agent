@@ -177,41 +177,6 @@ class ReferenceChecker:
         
         return citation_counts
     
-    def get_reference_contexts(self, reference_index: int) -> List[str]:
-        """获取特定参考文献的引用上下文
-        
-        Args:
-            reference_index: 参考文献索引
-            
-        Returns:
-            包含该参考文献引用的上下文列表
-        """
-        if reference_index < 0 or reference_index >= len(self.references):
-            logger.warning(f"参考文献索引 {reference_index} 超出范围")
-            return []
-        
-        reference = self.references[reference_index]
-        contexts = []
-        
-        # 构建映射表（如果尚未构建）
-        if not self.reference_map:
-            self._build_reference_map()
-        
-        # 查找可能引用该参考文献的标识符
-        ref_identifiers = []
-        for key, index in self.reference_map.items():
-            if index == reference_index:
-                ref_identifiers.append(key)
-        
-        # 获取每个标识符的上下文
-        for identifier in ref_identifiers:
-            for citation in self.citations:
-                normalized = normalize_citation(citation)
-                if normalized == identifier or normalized in identifier or identifier in normalized:
-                    citation_contexts = self.parser.get_citation_contexts(citation)
-                    contexts.extend(citation_contexts)
-        
-        return contexts
     
     def generate_report(self) -> Dict[str, any]:
         """生成引文核查报告

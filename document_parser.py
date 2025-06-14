@@ -9,7 +9,7 @@ from docx.document import Document as DocxDocument
 from docx.text.paragraph import Paragraph
 
 from config import CITATION_PATTERNS
-from utils import clean_text, logger
+from utils import clean_text, logger, find_citation_context
 
 
 class DocumentParser:
@@ -168,66 +168,69 @@ class DocumentParser:
             self.references = potential_refs
             logger.info(f"通过模式识别解析到 {len(self.references)} 条参考文献")
     
-    def extract_citations(self) -> Set[str]:
-        """提取文档中的引用"""
-        citations = set()
+    def extract_citations(self) -> Dict[str, List[str]]:
+        """
+        提取文档中的引用及其上下文
+        
+        Returns:
+            引用字典，键为引用标识符，值为包含该引用的所有句子列表
+        """
+        citations = {}
+        
+        # 排除参考文献部分的文本
+        text_without_references = self.text_content
+        if self.references_section:
+            # 找到参考文献部分的起始位置
+            ref_start = self.text_content.find(self.references_section)
+            if ref_start != -1:
+                # 只使用参考文献部分之前的文本
+                text_without_references = self.text_content[:ref_start]
         
         # 使用配置的引用模式
         for pattern in CITATION_PATTERNS:
-            matches = re.findall(pattern, self.text_content)
-            citations.update(matches)
-        
-        self.citations = citations
-        logger.info(f"提取到 {len(self.citations)} 个引用")
-        
-        return self.citations
-    
-    def get_citation_contexts(self, citation: str, window_size: int = 200) -> List[str]:
-        """获取特定引用的上下文，只返回包含引用的句子
-        
-        Args:
-            citation: 引用文本
-            window_size: 不再使用，保留参数是为了兼容性
+            matches = re.findall(pattern, text_without_references)
+            # matcher去重
+            matches = list(set(matches))
             
-        Returns:
-            包含引用的句子列表
-        """
-        contexts = []
-        escaped_citation = re.escape(citation)
-        
-        # 将文本分割成句子
-        # 使用正则表达式匹配句子，考虑中英文句号、问号和感叹号
-        sentences = re.split(r'(?<=[.。!！?？])\s*', self.text_content)
-        
-        # 查找包含引用的句子
-        for sentence in sentences:
-            if citation in sentence:
-                contexts.append(clean_text(sentence))
-        
-        # 如果没有找到任何句子，使用回退方法
-        if not contexts:
-            # 在整个文本中查找引用
-            for match in re.finditer(escaped_citation, self.text_content):
-                # 向前找到句子开始
-                sentence_start = self.text_content.rfind('.', 0, match.start())
-                if sentence_start == -1:  # 如果找不到句号，从文本开始
-                    sentence_start = 0
-                else:
-                    sentence_start += 1  # 跳过句号
+            for citation in matches:
+                # 过滤掉不应该被视为引用的文本
+                # 排除 arXiv 标识符
+                if citation.startswith('arXiv:'):
+                    continue
+                    
+                # 排除年份格式 (2018) 或 (2019)
+                if re.match(r'\(\d{4}\)', citation):
+                    continue
+                    
+                # # 排除单独的数字后跟句点的情况，如 "1."
+                # if re.match(r'^\d+\.?$', citation):
+                #     continue
                 
-                # 向后找到句子结束
-                sentence_end = self.text_content.find('.', match.end())
-                if sentence_end == -1:  # 如果找不到句号，到文本结束
-                    sentence_end = len(self.text_content)
-                else:
-                    sentence_end += 1  # 包含句号
+                logger.info(f"提取到引用: {citation}")
+
+                # 使用 find_citation_context 函数获取包含引用的所有句子
+                contexts = find_citation_context(text_without_references, citation)
                 
-                # 提取包含引用的句子
-                citation_sentence = self.text_content[sentence_start:sentence_end]
-                contexts.append(clean_text(citation_sentence))
+                # 过滤上下文，只保留真正包含引用的完整句子
+                valid_contexts = []
+                for context in contexts:
+                    # 确保上下文是完整句子，不只是引用标记本身
+                    if len(context) > len(citation) and citation in context:
+                        # 确保上下文不是参考文献部分的文本
+                        if not any(ref in context for ref in self.references):
+                            valid_contexts.append(context)
+                
+                if valid_contexts:
+                    citations[citation] = valid_contexts
         
-        return contexts
+        # 更新实例的引用集合
+        self.citations = set(citations.keys())
+        logger.info(f"提取到 {len(citations)} 个引用")
+        logger.info(f"提取到的引用: {citations}")
+        
+        return citations
     
+
     def get_document_metadata(self) -> Dict[str, str]:
         """获取文档元数据"""
         metadata = {}

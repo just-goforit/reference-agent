@@ -140,17 +140,19 @@ class ContentVerifier:
                 "reference_text_sample": reference_text[:500] + "..."
             }
     
-    def verify_document_citations(self, citation_contexts: List[str], pdf_path: str) -> List[Dict[str, Any]]:
-        """验证文档中的所有引用
+    def verify_document_citations(self, citations: List[str], pdf_path: str) -> List[Dict[str, Any]]:
+        """
+        验证文档中的所有引用
         
         Args:
-            citation_contexts: 引用上下文列表
+            citations: 引用列表
             pdf_path: 参考文献PDF路径
             
         Returns:
             验证结果列表
         """
-        logger.info(f"验证文档引用，共 {len(citation_contexts)} 个引用")
+        logger.info(f"验证文档引用，共 {len(citations)} 个引用")
+        logger.info(f"引用内容: {citations}")
         
         # 提取PDF文本
         reference_text = self.extract_text_from_pdf(pdf_path)
@@ -159,15 +161,26 @@ class ContentVerifier:
             return [{
                 "result": "错误",
                 "analysis": "无法从PDF提取文本",
-                "citation_text": context,
+                "citation_text": citation,
                 "reference_text_sample": ""
-            } for context in citation_contexts]
+            } for citation in citations]
         
         # 验证每个引用
         verification_results = []
-        for context in citation_contexts:
-            result = self.verify_citation(context, reference_text)
-            verification_results.append(result)
+        for citation in citations:
+            # 获取引用的所有上下文句子
+            contexts = citation
+            
+            # 如果上下文是列表，则遍历每个上下文句子进行验证
+            if isinstance(contexts, list):
+                for context in contexts:
+                    # 验证引用
+                    result = self.verify_citation(context, reference_text)
+                    verification_results.append(result)
+            else:
+                # 兼容旧版本，直接使用引用内容作为上下文
+                result = self.verify_citation(contexts, reference_text)
+                verification_results.append(result)
         
         return verification_results
     

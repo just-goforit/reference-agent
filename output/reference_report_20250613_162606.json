@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-06-13 16:26:06",
+  "reference_check": {
+    "total_references": 2,
+    "total_citations": 2,
+    "unused_references": [],
+    "missing_references": [],
+    "citation_statistics": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": 1,
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": 1
+    },
+    "document_metadata": {
+      "title": "未知标题",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00+00:00",
+      "modified": "2013-12-23 23:15:00+00:00"
+    }
+  },
+  "download_results": {
+    "total_references": 2,
+    "downloaded_references": 2,
+    "results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": "downloads\\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf",
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": "downloads\\Strubell_2019_Energy_and_Policy_Consideratio.pdf"
+    }
+  },
+  "verification_report": {
+    "total_references": 0,
+    "total_citations": 0,
+    "accurate_citations": 0,
+    "inaccurate_citations": 0,
+    "partially_accurate_citations": 0,
+    "error_citations": 0,
+    "reference_summary": {},
+    "detailed_results": {}
+  }
+}

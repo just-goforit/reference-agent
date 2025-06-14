@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-06-14 10:38:23",
+  "reference_check": {
+    "total_references": 2,
+    "total_citations": 2,
+    "unused_references": [],
+    "missing_references": [],
+    "citation_statistics": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": 1,
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": 1
+    },
+    "document_metadata": {
+      "title": "未知标题",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00+00:00",
+      "modified": "2013-12-23 23:15:00+00:00"
+    }
+  },
+  "download_results": {
+    "total_references": 2,
+    "downloaded_references": 2,
+    "results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": "downloads\\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf",
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": "downloads\\Strubell_2019_Energy_and_Policy_Consideratio.pdf"
+    }
+  },
+  "verification_report": {
+    "total_references": 2,
+    "total_citations": 2,
+    "accurate_citations": 0,
+    "inaccurate_citations": 2,
+    "partially_accurate_citations": 0,
+    "error_citations": 0,
+    "reference_summary": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": {
+        "total": 1,
+        "accurate": 0,
+        "inaccurate": 1,
+        "partially_accurate": 0,
+        "error": 0
+      },
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": {
+        "total": 1,
+        "accurate": 0,
+        "inaccurate": 1,
+        "partially_accurate": 0,
+        "error": 0
+      }
+    },
+    "detailed_results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": [
+        {
+          "result": "不准确",
+          "analysis": "### 判断：不准确\n\n### 详细解释理由：\n\n1. **引用的事实是否存在于参考文献中**  \n   - 原文引用部分仅包含数字\"1\"，没有任何具体内容或事实陈述。参考文献是一篇关于BERT模型的详细论文，包含大量具体信息（如模型架构、预训练方法、实验结果等），但原文引用完全没有指向任何具体内容。因此，无法确认引用的事实是否存在于参考文献中。\n\n2. **引用是否曲解或夸大了参考文献的结论**  \n   - 由于原文引用是空的（仅有一个数字\"1\"），无法判断是否存在曲解或夸大。引用部分没有提供任何可比较的结论或观点。\n\n3. **引用的数据或统计信息是否与参考文献一致**  \n   - 原文引用未提供任何数据或统计信息，因此无法验证一致性。参考文献中包含多项实验结果（如GLUE分数、SQuAD性能等），但引用部分未提及任何相关内容。\n\n### 总结：  \n原文引用完全不准确，因为它没有提供任何具体信息或指向参考文献中的任何内容。有效的引用应至少包含一个具体的观点、数据或结论，并与参考文献明确关联。当前的引用形式（仅数字\"1\"）无法满足学术引用的基本要求。",
+          "citation_text": "1",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        }
+      ],
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": [
+        {
+          "result": "不准确",
+          "analysis": "判断：不准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n- 原文引用仅提供了一个数字\"2\"，没有任何上下文或说明。在提供的参考文献内容中，没有任何地方直接提到或可以对应这个数字\"2\"。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n- 由于引用内容过于简略且缺乏上下文，无法判断是否曲解或夸大了参考文献的结论。但可以确定的是，这个孤立的数字\"2\"完全没有反映参考文献的任何实质性内容。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n- 参考文献中确实包含了许多具体数据（如CO2排放量、训练时间、能源消耗等），但没有一个数据是简单的\"2\"这个数字。因此引用数据与参考文献不一致。\n\n总结：\n这个引用完全不准确，因为它：\n1) 没有提供任何可验证的引用点\n2) 没有反映参考文献的任何实质性内容\n3) 提供的数字在参考文献中找不到对应\n4) 缺乏必要的上下文说明\n\n正确的学术引用应该至少包含：\n- 引用的具体内容\n- 在原文中的位置或相关上下文\n- 与参考文献内容的明确对应关系",
+          "citation_text": "2",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        }
+      ]
+    }
+  }
+}

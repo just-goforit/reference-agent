@@ -4281,3 +4281,1707 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 2025-06-13 16:01:30,879 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_160130.json
 2025-06-13 16:01:30,881 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_160130.html
 2025-06-13 16:01:30,881 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 16:06:25,406 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:06:25,411 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:06:46,185 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:06:46,200 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:07:02,026 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-13 16:07:02,061 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:07:02,064 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:07:02,064 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:07:02,064 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:07:02,064 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:07:02,064 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:07:02,064 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:07:02,064 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:07:02,064 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:07:02,083 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:07:02,085 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_160702.json
+2025-06-13 16:07:02,088 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_160702.html
+2025-06-13 16:07:02,088 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 16:07:41,099 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:07:41,099 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:07:53,247 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-13 16:07:53,280 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:07:53,280 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:07:53,280 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:07:53,280 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:07:53,280 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:07:53,280 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:07:53,280 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:07:53,280 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:07:53,280 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:07:53,300 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:07:53,302 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_160753.json
+2025-06-13 16:07:53,305 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_160753.html
+2025-06-13 16:07:53,306 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 16:17:49,198 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:17:49,202 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:18:46,314 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-13 16:18:46,351 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:18:46,357 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:18:46,358 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:18:46,362 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:18:46,363 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:18:46,368 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:18:46,369 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:18:46,370 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:18:46,371 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:18:46,378 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:18:46,417 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:18:46,425 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:18:46,425 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:18:46,425 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 16:18:46,429 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 16:18:46,430 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:18:46,431 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 16:18:46,432 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:18:50,025 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:18:53,740 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:18:53,740 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 16:18:53,741 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 16:18:53,741 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:18:54,137 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:18:56,218 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 16:18:56,219 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 16:18:56,219 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 16:18:56,242 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:18:56,246 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:18:56,247 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:18:56,248 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:18:56,248 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:18:56,249 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 16:18:56,799 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 0 ¸öÒıÓÃ
+2025-06-13 16:18:56,803 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_161856.json
+2025-06-13 16:18:56,805 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_161856.html
+2025-06-13 16:18:56,806 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 16:25:40,661 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:25:40,667 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:25:51,547 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:25:51,561 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:25:58,831 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-13 16:25:58,860 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:25:58,865 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:25:58,865 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:25:58,867 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:25:58,868 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:25:58,868 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:25:58,868 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:25:58,868 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:25:58,868 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:25:58,876 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:25:58,893 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:25:58,897 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:25:58,897 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:25:58,897 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 16:25:58,897 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 16:25:58,899 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:25:58,900 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 16:25:58,900 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:26:00,326 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:26:03,049 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:26:03,049 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 16:26:03,050 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 16:26:03,050 - arxiv - INFO - Sleeping: 0.268709 seconds
+2025-06-13 16:26:03,324 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:26:03,726 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:26:05,393 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 16:26:05,393 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 16:26:05,393 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 16:26:05,429 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:26:05,431 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:26:05,433 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:26:05,435 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:26:05,435 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:26:05,435 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 16:26:05,435 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 0 Ìõ
+2025-06-13 16:26:06,220 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 0 ¸öÒıÓÃ
+2025-06-13 16:26:06,226 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_162606.json
+2025-06-13 16:26:06,226 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_162606.html
+2025-06-13 16:26:06,230 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 16:29:02,222 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:29:02,243 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:29:20,663 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-13 16:29:20,690 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:29:20,696 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:29:20,697 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:29:20,700 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:29:20,700 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:29:20,702 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:29:20,702 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:29:20,705 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:29:20,707 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:29:20,707 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:29:20,707 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_162920.json
+2025-06-13 16:29:20,707 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_162920.html
+2025-06-13 16:29:20,707 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 16:30:04,965 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-13 16:30:04,992 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:30:04,995 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:30:04,996 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:30:05,001 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:30:05,001 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:30:05,007 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:30:05,008 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:30:05,009 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:30:05,009 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:30:05,015 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:30:05,040 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:30:05,044 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:30:05,045 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:30:05,046 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 16:30:05,047 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 16:30:05,048 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:30:05,049 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 16:30:05,049 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:30:06,461 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:30:09,263 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:30:09,263 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 16:30:09,264 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 16:30:09,264 - arxiv - INFO - Sleeping: 0.190996 seconds
+2025-06-13 16:30:09,470 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:30:09,877 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:30:11,089 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 16:30:11,089 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 16:30:11,089 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 16:30:11,121 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:30:11,125 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:30:11,126 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:30:11,126 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:30:11,126 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:30:11,126 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 16:30:11,126 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 16:30:11,838 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:30:11,839 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 16:30:11,840 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:30:13,444 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 16:30:13,445 - reference_agent - ERROR - Ö´ĞĞ¹ı³ÌÖĞ·¢Éú´íÎó: find_citation_context() missing 1 required positional argument: 'citation'
+2025-06-13 16:33:24,969 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:33:24,987 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:33:38,321 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:33:38,327 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:33:53,930 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:33:53,935 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:34:03,277 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-13 16:34:03,292 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:34:03,300 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:34:03,301 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:34:03,304 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:34:03,304 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:34:03,305 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:34:03,306 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:34:03,306 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:34:03,307 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:34:03,311 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:34:03,329 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:34:03,333 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:34:03,334 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:34:03,335 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 16:34:03,336 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 16:34:03,337 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:34:03,338 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 16:34:03,338 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:34:04,888 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:34:07,401 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:34:07,415 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 16:34:07,416 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 16:34:07,418 - arxiv - INFO - Sleeping: 0.448978 seconds
+2025-06-13 16:34:07,881 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:34:08,285 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:34:09,635 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 16:34:09,635 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 16:34:09,635 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 16:34:09,661 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:34:09,667 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:34:09,669 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:34:09,670 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:34:09,670 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:34:09,671 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 16:34:09,671 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 16:34:10,425 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:34:10,426 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 16:34:10,426 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-13 16:34:10,426 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:34:11,750 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 16:34:11,750 - reference_agent - ERROR - Ö´ĞĞ¹ı³ÌÖĞ·¢Éú´íÎó: find_citation_context() missing 1 required positional argument: 'citation'
+2025-06-13 16:35:16,659 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-13 16:35:16,692 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:35:16,698 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:35:16,700 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:35:16,704 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:35:16,705 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:35:16,707 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:35:16,708 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:35:16,709 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:35:16,710 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:35:16,721 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:35:16,760 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:35:16,767 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:35:16,768 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:35:16,769 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 16:35:16,770 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 16:35:16,772 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:35:16,773 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 16:35:16,774 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:35:18,116 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:35:21,601 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:35:21,614 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 16:35:21,616 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 16:35:21,617 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:35:22,011 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:35:23,084 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 16:35:23,085 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 16:35:23,086 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 16:35:23,112 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-13 16:35:23,117 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:35:23,118 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:35:23,119 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:35:23,120 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:35:23,120 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 16:35:23,121 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 16:35:23,694 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:35:23,694 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 16:35:23,695 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-13 16:35:23,695 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:35:24,482 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 16:35:24,482 - reference_agent - ERROR - Ö´ĞĞ¹ı³ÌÖĞ·¢Éú´íÎó: find_citation_context() missing 1 required positional argument: 'citation'
+2025-06-13 16:36:11,873 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:36:11,877 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:46:45,504 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_downloader.py
+2025-06-13 16:46:45,504 - reference_agent - ERROR - ¼ÓÔØÎÄµµÊ§°Ü: Package not found at '.\arxiv_downloader.py'
+2025-06-13 16:46:45,504 - reference_agent - ERROR - Ö´ĞĞ¹ı³ÌÖĞ·¢Éú´íÎó: Package not found at '.\arxiv_downloader.py'
+2025-06-13 16:47:04,239 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_test_paper.docx
+2025-06-13 16:47:04,256 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 16:47:04,258 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:47:04,259 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:47:04,261 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:47:04,261 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:47:04,262 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:47:04,263 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:47:04,263 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:47:04,263 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:47:04,270 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:47:04,284 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 16:47:04,289 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:47:04,289 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:47:04,289 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 16:47:04,290 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 16:47:04,291 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:47:04,291 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 16:47:04,292 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:47:05,671 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:47:09,321 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:47:09,321 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 16:47:09,321 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 16:47:09,321 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:47:09,719 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:47:11,755 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 16:47:11,756 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 16:47:11,756 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 16:47:11,770 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 16:47:11,773 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:47:11,773 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:47:11,774 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:47:11,774 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:47:11,775 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 16:47:11,775 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 16:47:12,174 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:47:12,174 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 16:47:12,175 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-13 16:47:12,175 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:47:13,344 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 16:47:13,344 - reference_agent - ERROR - Ö´ĞĞ¹ı³ÌÖĞ·¢Éú´íÎó: find_citation_context() missing 1 required positional argument: 'citation'
+2025-06-13 16:48:39,684 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:48:39,689 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:51:19,601 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:51:19,601 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:53:28,555 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:53:28,559 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:53:41,743 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:53:41,748 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:54:13,870 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:54:13,874 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:55:06,146 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:55:06,165 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 16:55:08,739 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_test_paper.docx
+2025-06-13 16:55:08,765 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 16:55:08,770 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:55:08,771 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:55:08,774 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:55:08,775 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:55:08,780 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:55:08,781 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:55:08,782 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 16:55:08,782 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 16:55:08,783 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 16:55:08,818 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 16:55:08,822 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:55:08,823 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:55:08,824 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 16:55:08,825 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 16:55:08,829 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:55:08,830 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 16:55:08,831 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:55:10,186 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:55:13,261 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:55:13,275 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 16:55:13,276 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 16:55:13,277 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 16:55:13,692 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 16:55:14,756 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 16:55:14,757 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 16:55:14,758 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 16:55:14,782 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 16:55:14,786 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 16:55:14,787 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 16:55:14,788 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 16:55:14,788 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 16:55:14,788 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 16:55:14,788 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 16:55:14,788 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-13 16:55:15,360 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 16:55:15,360 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 16:55:15,360 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-13 16:55:15,360 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 16:55:16,573 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 16:55:16,574 - reference_agent - ERROR - Ö´ĞĞ¹ı³ÌÖĞ·¢Éú´íÎó: find_citation_context() missing 1 required positional argument: 'citation'
+2025-06-13 16:59:17,373 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 16:59:17,391 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 17:04:19,539 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 17:04:19,542 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 17:20:56,154 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 17:20:56,155 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 17:30:29,177 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 17:30:45,693 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 17:30:45,699 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 17:31:26,408 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 17:31:26,419 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 17:40:00,887 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_test_paper.docx
+2025-06-13 17:40:00,915 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 17:40:00,920 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 17:40:00,922 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 17:40:00,925 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 17:40:00,926 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 17:40:00,931 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 17:40:00,932 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 17:40:00,932 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 17:40:00,933 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 17:40:00,936 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 17:40:00,967 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 17:40:00,981 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 17:40:00,982 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 17:40:00,983 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 17:40:00,984 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 17:40:00,985 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 17:40:00,986 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 17:40:00,986 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 17:40:02,572 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 17:40:06,263 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 17:40:06,264 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 17:40:06,264 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 17:40:06,265 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 17:40:06,666 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 17:40:08,662 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 17:40:08,662 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 17:40:08,662 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 17:40:08,694 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 17:40:08,700 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 17:40:08,701 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 17:40:08,702 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 17:40:08,703 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 17:40:08,703 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 17:40:08,704 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 17:40:08,704 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-13 17:40:09,329 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 17:40:09,329 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 17:40:09,329 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-13 17:40:09,329 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 17:40:10,783 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 17:40:10,784 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-13 17:40:10,784 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-13 17:40:11,580 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 17:40:24,530 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-13 17:40:24,530 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï½á¹û£º²»×¼È·
+
+ÏêÏ¸½âÊÍ£º
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+   - Ô­ÎÄÒıÓÃ½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎÊµÖÊĞÔÄÚÈİ»òÒıÓÃ±ê¼Ç¡£ÕâÍêÈ«ÎŞ·¨¶ÔÓ¦²Î¿¼ÎÄÏ×ÖĞÈÎºÎ¾ßÌåÄÚÈİ¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÊÇ¿ÕµÄ£¨Ö»ÓĞÒ»¸öÊı×Ö£©£¬¼È²»´æÔÚ¶Ô²Î¿¼ÎÄÏ×ÄÚÈİµÄÕıÈ··´Ó³£¬Ò²²»´æÔÚÇú½â»ò¿ä´ó¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+   - Í¬Ñù£¬ÓÉÓÚÈ±·¦ÈÎºÎÊµÖÊĞÔÒıÓÃÄÚÈİ£¬ÎŞ·¨½øĞĞÒ»ÖÂĞÔ±È¶Ô¡£
+
+×Ü½á£º
+ÕâÊÇÒ»¸öÍêÈ«²»×¼È·µÄÒıÓÃ°¸Àı¡£ÓĞĞ§µÄÑ§ÊõÒıÓÃ±ØĞëÖÁÉÙ°üº¬ÒÔÏÂÒªËØÖ®Ò»£º
+(1) ÒıÓÃµÄ¾ßÌåÄÚÈİÆ¬¶Î
+(2) ¶Ô²Î¿¼ÎÄÏ×¹ÛµãµÄ×ªÊö
+(3) ²Î¿¼ÎÄÏ×ÖĞ¾ßÌåÊı¾İµÄÒıÓÃ
+¶øµ±Ç°Ìá¹©µÄ"Ô­ÎÄÒıÓÃ"²¿·ÖÍêÈ«È±Ê§ÕâĞ©±ØÒªĞÅÏ¢£¬ÎŞ·¨½¨Á¢Óë²Î¿¼ÎÄÏ×µÄÈÎºÎ¶ÔÓ¦¹ØÏµ¡£¸ù¾İÑ§ÊõÒıÓÃ¹æ·¶£¬ÕâÖÖ¿Õ°×ÒıÓÃÓ¦±»ÊÓÎªÎŞĞ§ÒıÓÃ¡£
+2025-06-13 17:40:24,533 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 17:40:24,533 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 17:40:24,533 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-13 17:40:24,533 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 17:40:25,011 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-13 17:40:25,027 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-13 17:40:25,028 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-13 17:40:25,106 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 17:40:42,163 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-13 17:40:42,164 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬Ã»ÓĞÈÎºÎÉÏÏÂÎÄ»òËµÃ÷¡£ÔÚÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİÖĞ£¬Ã»ÓĞÈÎºÎµØ·½µ¥¶ÀÌáµ½Êı×Ö"2"»òÓëÖ®Ö±½ÓÏà¹ØµÄÄÚÈİ¡£Òò´ËÕâ¸öÒıÓÃÈ±·¦ÈÎºÎ¿ÉÑéÖ¤µÄÊÂÊµÒÀ¾İ¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİ¹ıÓÚ¼òÂÔÇÒÈ±·¦ÉÏÏÂÎÄ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ¡£µ«¿ÉÒÔÈ·¶¨µÄÊÇ£¬Õâ¸ö¹ÂÁ¢µÄÊı×Ö"2"ÍêÈ«²»ÄÜ·´Ó³²Î¿¼ÎÄÏ×ÖĞ¹ØÓÚÉî¶ÈÑ§Ï°ÔÚNLPÖĞµÄÄÜÔ´ºÍÕş²ß¿¼Á¿µÄÈÎºÎÊµÖÊĞÔÄÚÈİ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞÈ·Êµ°üº¬¶à¸ö¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼äµÈ£©£¬µ«Ã»ÓĞÒ»¸öµ¥¶ÀµÄÊı×Ö"2"ÓëÕâĞ©Êı¾İÖ±½Ó¶ÔÓ¦¡£Òò´ËÎŞ·¨È·ÈÏÕâ¸öÒıÓÃÓë²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎÍ³¼ÆĞÅÏ¢Ò»ÖÂ¡£
+
+×Ü½á£ºÕâ¸öÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËü£º
+1) Ã»ÓĞÌá¹©ÈÎºÎ¿ÉÑéÖ¤µÄÒıÓÃµã
+2) ÎŞ·¨Óë²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎ¾ßÌåÄÚÈİ½¨Á¢¹ØÁª
+3) ²»ÄÜ·´Ó³²Î¿¼ÎÄÏ×µÄºËĞÄÖ÷Ìâ»òÈÎºÎÖØÒª·¢ÏÖ
+4) È±·¦±ØÒªµÄÉÏÏÂÎÄÊ¹¶ÁÕßÄÜ¹»ÑéÖ¤Æä×¼È·ĞÔ
+
+ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÃ÷È·Ö¸³öÒıÓÃµÄ¾ßÌåÄÚÈİÔÚÔ­ÎÄÖĞµÄÎ»ÖÃ£¨ÈçÕÂ½Ú¡¢±í¸ñ»òÒ³Âë£©£¬»òÕßÖÁÉÙÌá¹©×ã¹»µÄĞÅÏ¢Ê¹¶ÁÕßÄÜ¹»¶¨Î»µ½Ïà¹ØÄÚÈİ¡£Õâ¸öÒıÓÃ"2"ÍêÈ«²»·ûºÏÕâĞ©»ù±¾ÒªÇó¡£
+2025-06-13 17:40:42,167 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-13 17:40:42,169 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_174042.json
+2025-06-13 17:40:42,171 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_174042.html
+2025-06-13 17:40:42,171 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 18:03:07,138 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 18:03:07,146 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 18:03:19,776 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 18:03:19,783 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 18:03:19,783 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'2', '1'}
+2025-06-13 18:03:30,335 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_test_paper.docx
+2025-06-13 18:03:30,368 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:03:30,374 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:03:30,376 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:03:30,381 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 18:03:30,382 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1', '2'}
+2025-06-13 18:03:30,382 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 18:03:30,387 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 18:03:30,388 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 18:03:30,389 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 18:03:30,390 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 18:03:30,398 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 18:03:30,437 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:03:30,443 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:03:30,445 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:03:30,446 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 18:03:30,447 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 18:03:30,448 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 18:03:30,450 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 18:03:30,451 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 18:03:32,039 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 18:03:37,045 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 18:03:37,046 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 18:03:37,046 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 18:03:37,047 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 18:03:37,457 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 18:03:39,403 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 18:03:39,404 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 18:03:39,405 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 18:03:39,427 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:03:39,431 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:03:39,432 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:03:39,434 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 18:03:39,436 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1', '2'}
+2025-06-13 18:03:39,437 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 18:03:39,438 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 18:03:39,439 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 18:03:39,439 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-13 18:03:40,088 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 18:03:40,088 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 18:03:40,088 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-13 18:03:40,088 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 18:03:41,289 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 18:03:41,300 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-13 18:03:41,301 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-13 18:03:42,149 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 18:03:55,144 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-13 18:03:55,144 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**  
+   - Ô­ÎÄÒıÓÃ½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎ¾ßÌåÄÚÈİ»òÊÂÊµ³ÂÊö¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬°üº¬´óÁ¿¹ØÓÚÄ£ĞÍ¼Ü¹¹¡¢Ô¤ÑµÁ··½·¨¡¢ÊµÑé½á¹ûµÈĞÅÏ¢¡£Êı×Ö"1"±¾Éí²»·´Ó³ÈÎºÎ²Î¿¼ÎÄÏ×ÖĞµÄ¾ßÌåÄÚÈİ¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**  
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÃ»ÓĞÌá¹©ÈÎºÎÊµÖÊĞÔÄÚÈİ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ¡£ÒıÓÃÍêÈ«È±·¦ÉÏÏÂÎÄ£¬ÎŞ·¨Óë²Î¿¼ÎÄÏ×µÄÈÎºÎ²¿·Ö¶ÔÓ¦¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**  
+   - Ô­ÎÄÒıÓÃÎ´Ìá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬Òò´ËÎŞ·¨Óë²Î¿¼ÎÄÏ×ÖĞµÄÊı¾İ£¨ÈçGLUE·ÖÊı¡¢SQuAD½á¹ûµÈ£©½øĞĞ±È½Ï¡£
+
+### ×Ü½á£º
+Ô­ÎÄÒıÓÃ"1"ÊÇÒ»¸öÎŞĞ§ÒıÓÃ£¬Î´Ìá¹©ÈÎºÎÊµÖÊĞÔĞÅÏ¢»òÖ¸Ïò²Î¿¼ÎÄÏ×µÄ¾ßÌåÄÚÈİ¡£Ñ§ÊõÒıÓÃÓ¦Ã÷È·Ö¸Ïò²Î¿¼ÎÄÏ×ÖĞµÄ¾ßÌå¹Ûµã¡¢Êı¾İ»ò½áÂÛ£¬¶øÊı×Ö"1"ÍêÈ«Î´Âú×ãÕâÒ»ÒªÇó¡£Òò´Ë£¬¸ÃÒıÓÃ±»ÅĞ¶¨Îª**²»×¼È·**¡£
+2025-06-13 18:03:55,147 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 18:03:55,148 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 18:03:55,148 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-13 18:03:55,148 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 18:03:55,852 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-13 18:03:55,852 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-13 18:03:55,852 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-13 18:03:55,941 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 18:04:13,453 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-13 18:04:13,453 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬Ã»ÓĞÈÎºÎÉÏÏÂÎÄ»òËµÃ÷¡£ÔÚÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİÖĞ£¬ÍêÈ«ÕÒ²»µ½ÓëÊı×Ö"2"Ö±½Ó¶ÔÓ¦µÄÈÎºÎÊı¾İ¡¢ÊÂÊµ»òĞÅÏ¢¡£²Î¿¼ÎÄÏ×Ö÷ÒªÌÖÂÛµÄÊÇÉî¶ÈÑ§Ï°ÔÚNLPÖĞµÄÄÜÔ´ÏûºÄ¡¢Ì¼ÅÅ·ÅÒÔ¼°Ïà¹ØÕş²ß½¨Òé¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÔ­Ê¼ÒıÓÃÈ±·¦ÈÎºÎÉÏÏÂÎÄ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ¡£µ«¿ÉÒÔÈ·¶¨µÄÊÇ£¬Õâ¸ö¹ÂÁ¢µÄÊı×Ö"2"Óë²Î¿¼ÎÄÏ×µÄÈÎºÎÖ÷Òª½áÂÛ¶¼Ã»ÓĞ¹ØÁª¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞ°üº¬¶à¸ö¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼äµÈ£©£¬µ«Ã»ÓĞÒ»¸öÊı¾İÊÇ¼òµ¥µÄÊı×Ö"2"¡£±í¸ñ1ÖĞÁĞ³öµÄ×îĞ¡Ì¼ÅÅ·ÅÁ¿ÊÇ39°õ£¨NLP pipeline£©£¬ÕâÓë"2"ÎŞ¹Ø¡£
+
+×Ü½á£º
+Õâ¸öÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎª£º
+(1) ÒıÓÃÄÚÈİÓë²Î¿¼ÎÄÏ×Ö÷ÌâÎŞ¹Ø
+(2) ÒıÓÃĞÎÊ½²»ÍêÕû£¬È±·¦»ù±¾ÒıÓÃÒªËØ
+(3) ²Î¿¼ÎÄÏ×ÖĞ²»´æÔÚÓë"2"¶ÔÓ¦µÄÈÎºÎĞÅÏ¢
+(4) ÎŞ·¨½¨Á¢Êı×Ö"2"ÓëÂÛÎÄÈÎºÎ²¿·ÖµÄºÏÀí¹ØÁª
+
+ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÖÁÉÙ°üº¬ÓëÂÛÎÄÄÚÈİÏà¹ØµÄ¾ßÌåĞÅÏ¢£¬²¢Ö¸Ã÷³ö´¦Î»ÖÃ¡£Õâ¸öÒıÓÃ¼ÈÃ»ÓĞÌá¹©ÓĞĞ§ĞÅÏ¢£¬Ò²Ã»ÓĞÕıÈ··´Ó³²Î¿¼ÎÄÏ×ÄÚÈİ¡£
+2025-06-13 18:04:13,453 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-13 18:04:13,453 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_180413.json
+2025-06-13 18:04:13,453 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_180413.html
+2025-06-13 18:04:13,453 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 18:04:55,287 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 18:04:55,298 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 18:04:55,298 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', '2': 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚'}
+2025-06-13 18:05:02,593 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_test_paper.docx
+2025-06-13 18:05:02,623 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:05:02,628 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:05:02,629 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:05:02,632 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 18:05:02,633 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '2': 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£'}
+2025-06-13 18:05:02,635 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 18:05:02,637 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 18:05:02,637 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 18:05:02,637 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 18:05:02,637 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 18:05:02,637 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 18:05:02,675 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:05:02,681 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:05:02,684 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:05:02,687 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 18:05:02,688 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 18:05:02,689 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 18:05:02,690 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 18:05:02,691 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 18:05:03,985 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 18:05:06,768 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 18:05:06,769 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 18:05:06,769 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 18:05:06,769 - arxiv - INFO - Sleeping: 0.207177 seconds
+2025-06-13 18:05:06,983 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 18:05:07,389 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 18:05:09,052 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 18:05:09,053 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 18:05:09,054 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 18:05:09,079 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:05:09,086 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:05:09,087 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:05:09,088 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 18:05:09,089 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '2': 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£'}
+2025-06-13 18:05:09,090 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 18:05:09,091 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 18:05:09,092 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 18:05:09,092 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-13 18:05:09,662 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 18:05:09,663 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 18:05:09,663 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-13 18:05:09,663 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 18:05:10,635 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 18:05:10,635 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-13 18:05:10,635 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-13 18:05:11,617 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 18:05:23,665 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-13 18:05:23,666 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**  
+   - Ô­ÎÄÒıÓÃ½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎ¾ßÌåÄÚÈİ»òÊÂÊµ³ÂÊö¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬°üº¬´óÁ¿¾ßÌåĞÅÏ¢£¨ÈçÄ£ĞÍ¼Ü¹¹¡¢Ô¤ÑµÁ··½·¨¡¢ÊµÑé½á¹ûµÈ£©£¬µ«Êı×Ö"1"±¾Éí²»·´Ó³ÈÎºÎÕâĞ©ÄÚÈİ¡£Òò´Ë£¬ÒıÓÃµÄÊÂÊµ²»´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**  
+   - ÓÉÓÚÒıÓÃÄÚÈİÎª¿Õ£¨½öÊı×Ö"1"£©£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´ó¡£µ«ÑÏ¸ñÀ´Ëµ£¬ÕâÖÖÒıÓÃĞÎÊ½ÍêÈ«Î´´«´ï²Î¿¼ÎÄÏ×µÄÈÎºÎĞÅÏ¢£¬ÊôÓÚÎŞĞ§ÒıÓÃ¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**  
+   - ÒıÓÃÎ´Ìá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬Òò´ËÎŞ·¨Óë²Î¿¼ÎÄÏ×¶Ô±È¡£
+
+### ×Ü½á£º  
+Ô­ÎÄÒıÓÃ½öÎªÊı×Ö"1"£¬Î´°üº¬ÈÎºÎÊµÖÊĞÔÄÚÈİ£¬ÎŞ·¨·´Ó³²Î¿¼ÎÄÏ×£¨BERTÂÛÎÄ£©µÄÈÎºÎĞÅÏ¢¡£ÕâÖÖÒıÓÃĞÎÊ½ÊÇ²»×¼È·µÄ£¬ÊôÓÚÎŞĞ§ÒıÓÃ¡£ÕıÈ·µÄÒıÓÃÓ¦ÖÁÉÙ°üº¬Ò»¸ö¾ßÌåµÄ¹Ûµã¡¢·½·¨»ò½á¹û£¨ÀıÈç£º"BERTÍ¨¹ıÑÚÂëÓïÑÔÄ£ĞÍÊµÏÖË«ÏòÔ¤ÑµÁ·£¨Devlin et al., 2019£©"£©¡£
+2025-06-13 18:05:23,668 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 18:05:23,668 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 18:05:23,668 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-13 18:05:23,668 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 18:05:24,141 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-13 18:05:24,142 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-13 18:05:24,142 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-13 18:05:24,222 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 18:05:35,963 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-13 18:05:35,963 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬Ã»ÓĞÈÎºÎÉÏÏÂÎÄ»òËµÃ÷¡£ÔÚÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİÖĞ£¬Ã»ÓĞÈÎºÎµØ·½Ö±½ÓÌáµ½»ò¿ÉÒÔ¶ÔÓ¦Õâ¸öÊı×Ö"2"¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİ¹ıÓÚ¼òÂÔÇÒÈ±·¦ÉÏÏÂÎÄ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ¡£µ«¿ÉÒÔÈ·¶¨µÄÊÇ£¬Õâ¸ö¹ÂÁ¢µÄÊı×Ö"2"ÍêÈ«²»ÄÜ·´Ó³²Î¿¼ÎÄÏ×µÄÈÎºÎÄÚÈİ»ò½áÂÛ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞÈ·Êµ°üº¬¶à¸ö¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼äµÈ£©£¬µ«Ã»ÓĞÒ»¸öÊı¾İÊÇ¼òµ¥µÄ"2"¡£Òò´ËÕâ¸öÒıÓÃÓë²Î¿¼ÎÄÏ×ÖĞµÄÊı¾İÍêÈ«²»Ò»ÖÂ¡£
+
+×Ü½á£ºÕâ¸öÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËü£º
+1) Ã»ÓĞÌá¹©ÈÎºÎ¿ÉÑéÖ¤µÄÒıÓÃµã
+2) Óë²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎÄÚÈİ¶¼²»¶ÔÓ¦
+3) È±·¦±ØÒªµÄÉÏÏÂÎÄÊ¹Æä³ÉÎªÓĞÒâÒåµÄÒıÓÃ
+4) ²»ÄÜ·´Ó³²Î¿¼ÎÄÏ×µÄÈÎºÎÊµÖÊĞÔÄÚÈİ
+
+ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÃ÷È·Ö¸³öÒıÓÃµÄ¾ßÌåÄÚÈİÔÚÔ­ÎÄÖĞµÄÎ»ÖÃ£¬»òÕßÖÁÉÙÌá¹©×ã¹»µÄĞÅÏ¢ÈÃ¶ÁÕßÄÜ¹»ÑéÖ¤ÒıÓÃµÄ×¼È·ĞÔ¡£Õâ¸öÀı×ÓÖĞµÄ"2"ÍêÈ«²»·ûºÏÕâĞ©»ù±¾ÒªÇó¡£
+2025-06-13 18:05:35,968 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-13 18:05:35,968 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_180535.json
+2025-06-13 18:05:35,975 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_180535.html
+2025-06-13 18:05:35,976 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-13 18:06:51,070 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 18:06:51,074 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 18:06:51,075 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', '2': 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚'}
+2025-06-13 18:08:41,525 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 18:08:41,531 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 18:08:41,532 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['arXiv:1810.', 'arXiv:1906.', '(2018).', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', '(2019).', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', '1.'], '2': ['Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '(2018).', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '2.', '02243.', '(2019).', '[2] Strubell, E.']}
+2025-06-13 18:09:03,477 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 18:09:03,486 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 18:09:03,487 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: ['1', '2']
+2025-06-13 18:09:30,842 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 18:09:30,856 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 18:09:30,856 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: ['1', '2']
+2025-06-13 18:12:25,259 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-13 18:12:25,259 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-13 18:12:25,259 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', '(2018).', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', '1.', 'arXiv:1906.', 'arXiv:1810.', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', '(2019).'], '2': ['2.', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '(2018).', '02243.', '[2] Strubell, E.', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '(2019).']}
+2025-06-13 18:12:43,112 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_test_paper.docx
+2025-06-13 18:12:43,166 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:12:43,171 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:12:43,177 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:12:43,183 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 18:12:43,184 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', 'arXiv:1810.', 'arXiv:1906.', '²Î¿¼ÎÄÏ× [1] Devlin, J.', '1.', '(2019).', '(2018).'], '2': ['02243.', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '[2] Strubell, E.', '(2019).', '2.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '(2018).']}
+2025-06-13 18:12:43,186 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 18:12:43,190 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 18:12:43,194 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 18:12:43,195 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-13 18:12:43,196 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-13 18:12:43,214 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-13 18:12:43,282 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:12:43,294 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:12:43,294 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:12:43,301 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-13 18:12:43,302 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-13 18:12:43,304 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 18:12:43,306 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-13 18:12:43,311 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 18:12:44,850 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 18:12:53,309 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 18:12:53,310 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 18:12:53,310 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-13 18:12:53,311 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-13 18:12:53,760 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-13 18:12:55,688 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 18:12:55,689 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-13 18:12:55,689 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-13 18:12:55,716 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-13 18:12:55,720 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-13 18:12:55,720 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-13 18:12:55,722 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-13 18:12:55,722 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', 'arXiv:1810.', 'arXiv:1906.', '²Î¿¼ÎÄÏ× [1] Devlin, J.', '1.', '(2019).', '(2018).'], '2': ['02243.', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '[2] Strubell, E.', '(2019).', '2.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '(2018).']}
+2025-06-13 18:12:55,726 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-13 18:12:55,727 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-13 18:12:55,728 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-13 18:12:55,729 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-13 18:12:56,581 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-13 18:12:56,582 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 18:12:56,582 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-13 18:12:56,583 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-13 18:12:57,844 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-13 18:12:57,845 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-13 18:12:57,845 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-13 18:12:58,761 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 18:13:11,260 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-13 18:13:11,260 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**  
+   - Ô­ÎÄÒıÓÃ½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎ¾ßÌåÄÚÈİ»òÊÂÊµ³ÂÊö¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬°üº¬´óÁ¿¾ßÌåĞÅÏ¢£¨ÈçÄ£ĞÍ¼Ü¹¹¡¢Ô¤ÑµÁ··½·¨¡¢ÊµÑé½á¹ûµÈ£©£¬µ«Ô­ÎÄÒıÓÃÍêÈ«Ã»ÓĞÌá¼°ÈÎºÎÕâĞ©ÄÚÈİ¡£Òò´Ë£¬ÎŞ·¨È·ÈÏÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**  
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÊÇ¿ÕµÄ£¨½ö"1"£©£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó¡£ÒıÓÃÎ´Ìá¹©ÈÎºÎ½áÂÛ»ò¹Ûµã£¬Òò´ËÎŞ·¨Óë²Î¿¼ÎÄÏ×µÄÄÚÈİ½øĞĞ±È½Ï¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**  
+   - Ô­ÎÄÒıÓÃÎ´Ìá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬¶ø²Î¿¼ÎÄÏ×ÖĞ°üº¬´óÁ¿ÊµÑéÊı¾İ£¨ÈçGLUE·ÖÊı¡¢MultiNLI×¼È·ÂÊµÈ£©¡£Òò´Ë£¬ÎŞ·¨ÑéÖ¤Ò»ÖÂĞÔ¡£
+
+### ×Ü½á£º  
+Ô­ÎÄÒıÓÃ"1"ÍêÈ«Î´·´Ó³²Î¿¼ÎÄÏ×µÄÈÎºÎÄÚÈİ£¬¼ÈÎ´ÌáÈ¡¾ßÌåĞÅÏ¢£¬Ò²Î´Ìá¹©ÈÎºÎ¿ÉÑéÖ¤µÄÒıÓÃµã¡£ÕâÖÖÒıÓÃ·½Ê½ÎŞ·¨Âú×ãÑ§ÊõÒıÓÃµÄ»ù±¾ÒªÇó£¬Òò´ËÅĞ¶ÏÎª**²»×¼È·**¡£ÕıÈ·µÄÒıÓÃÓ¦ÖÁÉÙ°üº¬Ò»¸ö¾ßÌåµÄ¹Ûµã¡¢Êı¾İ»ò½áÂÛ£¬²¢Ã÷È·Ö¸Ïò²Î¿¼ÎÄÏ×µÄÏàÓ¦²¿·Ö¡£
+2025-06-13 18:13:11,263 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-13 18:13:11,263 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-13 18:13:11,263 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-13 18:13:11,263 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-13 18:13:11,909 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-13 18:13:11,910 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-13 18:13:11,911 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-13 18:13:12,054 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 18:13:23,609 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-13 18:13:23,609 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬¶ø²Î¿¼ÎÄÏ×ÄÚÈİÊÇÒ»ÆªÍêÕûµÄÑ§ÊõÂÛÎÄ£¬ÌÖÂÛµÄÊÇÉî¶ÈÑ§Ï°ÔÚNLPÖĞµÄÄÜÔ´ºÍÕş²ß¿¼ÂÇ¡£Êı×Ö"2"ÔÚ²Î¿¼ÎÄÏ×ÖĞÃ»ÓĞÈÎºÎ¶ÔÓ¦ÄÚÈİ»òº¬Òå¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİÓë²Î¿¼ÎÄÏ×ÍêÈ«ÎŞ¹Ø£¬Õâ²»½öÊÇÇú½â£¬¸üÊÇÍêÈ«´íÎóµÄÒıÓÃ¡£²Î¿¼ÎÄÏ×ÌÖÂÛµÄÊÇNLPÄ£ĞÍµÄÄÜÔ´ÏûºÄºÍ»·¾³³É±¾£¬¶øÒıÓÃÌá¹©µÄÊı×Ö"2"Ã»ÓĞÈÎºÎ¹ØÁªĞÔ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞ°üº¬¶à¸ö¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼äµÈ£©£¬µ«¶¼ÓëÊı×Ö"2"ÎŞ¹Ø¡£ÎÄÖĞÌáµ½µÄÊı×Ö°üÀ¨1984£¨º½¿ÕÂÃĞĞÅÅ·Å£©¡¢78,468£¨´øµ÷ÓÅµÄÊµÑéÅÅ·Å£©µÈ£¬µ«Ã»ÓĞÓë"2"Ïà¹ØµÄÊı¾İ¡£
+
+½áÂÛ£º
+ÕâÊÇÒ»¸öÍêÈ«²»×¼È·µÄÒıÓÃ£¬ÒòÎª£º
+1) ÒıÓÃÄÚÈİÓë²Î¿¼ÎÄÏ×ºÁÎŞ¹ØÁª
+2) Ã»ÓĞÕıÈ·Ö¸Ïò²Î¿¼ÎÄÏ×µÄÈÎºÎ²¿·Ö
+3) Ã»ÓĞ·´Ó³²Î¿¼ÎÄÏ×µÄÈÎºÎºËĞÄÄÚÈİ»òÊı¾İ
+4) ¿ÉÄÜÊÇÒ»¸ö´íÎóµÄÒıÓÃ±ê¼Ç»òÒÅÂ©ÁËÊµ¼ÊÒıÓÃÄÚÈİ
+
+ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÃ÷È·Ö¸³ö²Î¿¼ÎÄÏ×ÖĞµÄ¾ßÌåÄÚÈİ»ò¹Ûµã£¬¶ø·ÇÌá¹©Ò»¸öÎŞÒâÒåµÄÊı×Ö¡£
+2025-06-13 18:13:23,612 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-13 18:13:23,614 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_181323.json
+2025-06-13 18:13:23,616 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250613_181323.html
+2025-06-13 18:13:23,617 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 10:19:43,915 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_test_paper.docx
+2025-06-14 10:19:43,930 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-14 10:19:43,933 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:19:43,933 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:19:43,936 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:19:43,937 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['²Î¿¼ÎÄÏ× [1] Devlin, J.', '(2019).', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '1.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'arXiv:1810.', 'arXiv:1906.', '(2018).'], '2': ['02243.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '(2019).', '2.', '[2] Strubell, E.', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '(2018).']}
+2025-06-14 10:19:43,937 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:19:43,938 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:19:43,939 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:19:43,939 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:19:43,939 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:19:43,945 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 10:19:43,957 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-14 10:19:43,959 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:19:43,959 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:19:43,959 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 10:19:43,959 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 10:19:43,959 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:19:43,959 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 10:19:43,959 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:19:47,144 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:19:55,726 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:19:55,726 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:19:55,726 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 10:19:55,726 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:19:56,125 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:19:58,102 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:19:58,102 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 10:19:58,102 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 10:19:58,118 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-14 10:19:58,122 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:19:58,122 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:19:58,122 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:19:58,126 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['²Î¿¼ÎÄÏ× [1] Devlin, J.', '(2019).', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '1.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'arXiv:1810.', 'arXiv:1906.', '(2018).'], '2': ['02243.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '(2019).', '2.', '[2] Strubell, E.', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '(2018).']}
+2025-06-14 10:19:58,126 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:19:58,126 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 10:19:58,126 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-14 10:19:58,126 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-14 10:19:58,482 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:19:58,482 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:19:58,482 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-14 10:19:58,482 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:19:59,114 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-14 10:19:59,118 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-14 10:19:59,118 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-14 10:19:59,839 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:20:09,124 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:20:09,124 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**  
+   - Ô­ÎÄÒıÓÃ²¿·Ö½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎ¾ßÌåÄÚÈİ»òÊÂÊµ³ÂÊö¡£Òò´Ë£¬ÎŞ·¨ÅĞ¶Ï¸ÃÒıÓÃÊÇ·ñ·´Ó³ÁË²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎÊÂÊµ¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬°üº¬´óÁ¿¾ßÌåĞÅÏ¢£¬µ«Ô­ÎÄÒıÓÃÍêÈ«Ã»ÓĞÌá¼°ÈÎºÎ¾ßÌåÄÚÈİ¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**  
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÃ»ÓĞÈÎºÎ¾ßÌåÄÚÈİ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó¡£ÒıÓÃ²¿·ÖÍêÈ«È±Ê§£¬ÎŞ·¨Óë²Î¿¼ÎÄÏ×µÄÈÎºÎ½áÂÛ½øĞĞ¶Ô±È¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**  
+   - Í¬Ñù£¬Ô­ÎÄÒıÓÃÎ´Ìá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬Òò´ËÎŞ·¨ÅĞ¶ÏÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ¡£²Î¿¼ÎÄÏ×ÖĞ°üº¬´óÁ¿ÊµÑéÊı¾İºÍ½á¹û£¨ÈçGLUE·ÖÊı¡¢MultiNLI×¼È·ÂÊµÈ£©£¬µ«Ô­ÎÄÒıÓÃÎ´Ìá¼°ÈÎºÎÏà¹ØÄÚÈİ¡£
+
+### ×Ü½á£º  
+Ô­ÎÄÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËüÃ»ÓĞÌá¹©ÈÎºÎ¾ßÌåĞÅÏ¢»òÄÚÈİ£¬ÎŞ·¨Óë²Î¿¼ÎÄÏ×µÄÈÎºÎ²¿·Ö½øĞĞ¶Ô±È»òÑéÖ¤¡£ÕıÈ·µÄÒıÓÃÓ¦ÖÁÉÙ°üº¬²Î¿¼ÎÄÏ×ÖĞµÄ¾ßÌå¹Ûµã¡¢Êı¾İ»ò½áÂÛ¡£
+2025-06-14 10:20:09,128 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:20:09,128 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:20:09,128 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-14 10:20:09,128 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:20:09,470 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-14 10:20:09,470 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-14 10:20:09,470 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-14 10:20:09,587 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:20:22,033 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:20:22,033 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬Ã»ÓĞÈÎºÎÉÏÏÂÎÄ»òËµÃ÷¡£ÔÚÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİÖĞ£¬Ã»ÓĞÈÎºÎµØ·½µ¥¶ÀÌáµ½Êı×Ö"2"»òÓëÖ®Ö±½ÓÏà¹ØµÄÄÚÈİ¡£Òò´ËÕâ¸öÒıÓÃÈ±·¦ÈÎºÎ¿ÉÑéÖ¤µÄÊÂÊµÒÀ¾İ¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİ¹ıÓÚ¼òÂÔÇÒÎŞÉÏÏÂÎÄ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ¡£µ«¿ÉÒÔÈ·¶¨µÄÊÇ£¬Õâ¸öÒıÓÃÍêÈ«Ã»ÓĞ·´Ó³²Î¿¼ÎÄÏ×ÖĞÌÖÂÛµÄÈÎºÎÖ÷ÒªÄÚÈİ£¬ÈçÉî¶ÈÑ§Ï°ÔÚNLPÖĞµÄÄÜÔ´ÏûºÄ¡¢»·¾³Ó°Ïì¡¢³É±¾·ÖÎöµÈºËĞÄÒéÌâ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞ°üº¬´óÁ¿¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼ä¡¢ÄÜÔ´ÏûºÄµÈ£©£¬µ«Êı×Ö"2"ÓëÕâĞ©Êı¾İ¶¼²»¶ÔÓ¦¡£²Î¿¼ÎÄÏ×ÖĞµÄ±í¸ñºÍÍ³¼ÆÊı¾İ×îĞ¡ÖµÎª39£¨NLP pipelineµÄCO2eÅÅ·ÅÁ¿£©£¬Ã»ÓĞ³öÏÖÊı×Ö2¡£
+
+×Ü½á£º
+Õâ¸öÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËü£º
+(1) Ã»ÓĞÖ¸Ïò²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎ¾ßÌåÄÚÈİ
+(2) Ã»ÓĞÌá¹©ÈÎºÎ¿ÉÑéÖ¤µÄĞÅÏ¢
+(3) Óë²Î¿¼ÎÄÏ×ÌÖÂÛµÄÖ÷ÌâÍêÈ«ÎŞ¹Ø
+(4) ÒıÓÃµÄÊı×ÖÔÚ²Î¿¼ÎÄÏ×ÖĞ²»´æÔÚ
+
+ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÖÁÉÙ°üº¬ÒıÓÃµÄ¾ßÌåÄÚÈİ»ò¹Ûµã£¬²¢Ö¸Ïò²Î¿¼ÎÄÏ×ÖĞµÄÌØ¶¨²¿·Ö¡£Õâ¸öÀı×ÓÖĞµÄÒıÓÃÍêÈ«²»·ûºÏÑ§Êõ¹æ·¶¡£
+2025-06-14 10:20:22,037 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-14 10:20:22,037 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_102022.json
+2025-06-14 10:20:22,040 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_102022.html
+2025-06-14 10:20:22,040 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 10:22:39,496 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 10:22:39,496 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 10:22:39,496 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['(2019).', 'arXiv:1906.', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', '(2018).', 'arXiv:1810.', '1.'], '2': ['(2019).', '[2] Strubell, E.', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '2.', '02243.', '(2018).', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚']}
+2025-06-14 10:31:39,025 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 10:31:39,032 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 10:31:39,032 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['1.'], '2': ['2.']}
+2025-06-14 10:32:03,241 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 10:32:03,262 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:32:03,265 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:32:03,266 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:32:03,269 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:32:03,269 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['1.'], '2': ['2.']}
+2025-06-14 10:32:03,270 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:32:03,272 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:32:03,272 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:32:03,273 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:32:03,274 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:32:03,281 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 10:32:03,283 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_103203.json
+2025-06-14 10:32:03,285 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_103203.html
+2025-06-14 10:32:03,286 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 10:32:41,408 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 10:32:41,417 - reference_agent - INFO - å¼•ç”¨ 1 çš„ä¸Šä¸‹æ–‡: ['1.']
+2025-06-14 10:32:41,418 - reference_agent - INFO - å¼•ç”¨ 2 çš„ä¸Šä¸‹æ–‡: ['2.']
+2025-06-14 10:32:41,419 - reference_agent - INFO - å¼•ç”¨ 1 çš„ä¸Šä¸‹æ–‡: ['1.']
+2025-06-14 10:32:41,420 - reference_agent - INFO - å¼•ç”¨ 2 çš„ä¸Šä¸‹æ–‡: ['2.']
+2025-06-14 10:32:41,420 - reference_agent - INFO - å¼•ç”¨ 1 çš„ä¸Šä¸‹æ–‡: ['1.']
+2025-06-14 10:32:41,421 - reference_agent - INFO - å¼•ç”¨ 2 çš„ä¸Šä¸‹æ–‡: ['2.']
+2025-06-14 10:32:41,424 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 10:32:41,425 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['1.'], '2': ['2.']}
+2025-06-14 10:33:12,009 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 10:33:12,013 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 10:33:12,014 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['1.'], '2': ['2.']}
+2025-06-14 10:37:32,463 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 10:37:32,478 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:37:32,480 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:37:32,480 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:37:32,483 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:37:32,483 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['1.'], '2': ['2.']}
+2025-06-14 10:37:32,484 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:37:32,485 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:37:32,485 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:37:32,486 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:37:32,486 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:37:32,490 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 10:37:32,492 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_103732.json
+2025-06-14 10:37:32,493 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_103732.html
+2025-06-14 10:37:32,494 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 10:37:39,869 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: .\arxiv_test_paper.docx
+2025-06-14 10:37:39,887 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-14 10:37:39,891 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:37:39,892 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:37:39,896 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:37:39,896 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['1.'], '2': ['2.']}
+2025-06-14 10:37:39,896 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:37:39,898 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:37:39,898 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:37:39,899 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:37:39,899 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:37:39,904 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 10:37:39,921 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-14 10:37:39,926 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:37:39,927 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:37:39,927 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 10:37:39,928 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 10:37:39,929 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:37:39,930 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 10:37:39,930 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:37:41,241 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:37:46,058 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:37:46,059 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:37:46,059 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 10:37:46,060 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:37:46,452 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:37:48,363 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:37:48,364 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 10:37:48,364 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 10:37:48,378 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: .\arxiv_test_paper.docx
+2025-06-14 10:37:48,380 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:37:48,380 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:37:48,381 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:37:48,382 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['1.'], '2': ['2.']}
+2025-06-14 10:37:48,382 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:37:48,383 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 10:37:48,383 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-14 10:37:48,384 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-14 10:37:48,691 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:37:48,692 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:37:48,692 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-14 10:37:48,693 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:37:49,531 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-14 10:37:49,532 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-14 10:37:49,532 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-14 10:37:50,302 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:38:01,278 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:38:01,279 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**  
+   - Ô­ÎÄÒıÓÃ²¿·Ö½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎ¾ßÌåÄÚÈİ»òÊÂÊµ³ÂÊö¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬°üº¬´óÁ¿¾ßÌåĞÅÏ¢£¨ÈçÄ£ĞÍ¼Ü¹¹¡¢Ô¤ÑµÁ··½·¨¡¢ÊµÑé½á¹ûµÈ£©£¬µ«Ô­ÎÄÒıÓÃÍêÈ«Ã»ÓĞÖ¸ÏòÈÎºÎ¾ßÌåÄÚÈİ¡£Òò´Ë£¬ÎŞ·¨È·ÈÏÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**  
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÊÇ¿ÕµÄ£¨½öÓĞÒ»¸öÊı×Ö"1"£©£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó¡£ÒıÓÃ²¿·ÖÃ»ÓĞÌá¹©ÈÎºÎ¿É±È½ÏµÄ½áÂÛ»ò¹Ûµã¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**  
+   - Ô­ÎÄÒıÓÃÎ´Ìá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬Òò´ËÎŞ·¨ÑéÖ¤Ò»ÖÂĞÔ¡£²Î¿¼ÎÄÏ×ÖĞ°üº¬¶àÏîÊµÑé½á¹û£¨ÈçGLUE·ÖÊı¡¢SQuADĞÔÄÜµÈ£©£¬µ«ÒıÓÃ²¿·ÖÎ´Ìá¼°ÈÎºÎÏà¹ØÄÚÈİ¡£
+
+### ×Ü½á£º  
+Ô­ÎÄÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËüÃ»ÓĞÌá¹©ÈÎºÎ¾ßÌåĞÅÏ¢»òÖ¸Ïò²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎÄÚÈİ¡£ÓĞĞ§µÄÒıÓÃÓ¦ÖÁÉÙ°üº¬Ò»¸ö¾ßÌåµÄ¹Ûµã¡¢Êı¾İ»ò½áÂÛ£¬²¢Óë²Î¿¼ÎÄÏ×Ã÷È·¹ØÁª¡£µ±Ç°µÄÒıÓÃĞÎÊ½£¨½öÊı×Ö"1"£©ÎŞ·¨Âú×ãÑ§ÊõÒıÓÃµÄ»ù±¾ÒªÇó¡£
+2025-06-14 10:38:01,281 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:38:01,282 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:38:01,282 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-14 10:38:01,282 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:38:01,634 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-14 10:38:01,634 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-14 10:38:01,634 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-14 10:38:01,734 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:38:23,132 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:38:23,133 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬Ã»ÓĞÈÎºÎÉÏÏÂÎÄ»òËµÃ÷¡£ÔÚÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİÖĞ£¬Ã»ÓĞÈÎºÎµØ·½Ö±½ÓÌáµ½»ò¿ÉÒÔ¶ÔÓ¦Õâ¸öÊı×Ö"2"¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİ¹ıÓÚ¼òÂÔÇÒÈ±·¦ÉÏÏÂÎÄ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ¡£µ«¿ÉÒÔÈ·¶¨µÄÊÇ£¬Õâ¸ö¹ÂÁ¢µÄÊı×Ö"2"ÍêÈ«Ã»ÓĞ·´Ó³²Î¿¼ÎÄÏ×µÄÈÎºÎÊµÖÊĞÔÄÚÈİ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞÈ·Êµ°üº¬ÁËĞí¶à¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼ä¡¢ÄÜÔ´ÏûºÄµÈ£©£¬µ«Ã»ÓĞÒ»¸öÊı¾İÊÇ¼òµ¥µÄ"2"Õâ¸öÊı×Ö¡£Òò´ËÒıÓÃÊı¾İÓë²Î¿¼ÎÄÏ×²»Ò»ÖÂ¡£
+
+×Ü½á£º
+Õâ¸öÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËü£º
+1) Ã»ÓĞÌá¹©ÈÎºÎ¿ÉÑéÖ¤µÄÒıÓÃµã
+2) Ã»ÓĞ·´Ó³²Î¿¼ÎÄÏ×µÄÈÎºÎÊµÖÊĞÔÄÚÈİ
+3) Ìá¹©µÄÊı×ÖÔÚ²Î¿¼ÎÄÏ×ÖĞÕÒ²»µ½¶ÔÓ¦
+4) È±·¦±ØÒªµÄÉÏÏÂÎÄËµÃ÷
+
+ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÖÁÉÙ°üº¬£º
+- ÒıÓÃµÄ¾ßÌåÄÚÈİ
+- ÔÚÔ­ÎÄÖĞµÄÎ»ÖÃ»òÏà¹ØÉÏÏÂÎÄ
+- Óë²Î¿¼ÎÄÏ×ÄÚÈİµÄÃ÷È·¶ÔÓ¦¹ØÏµ
+2025-06-14 10:38:23,137 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-14 10:38:23,139 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_103823.json
+2025-06-14 10:38:23,141 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_103823.html
+2025-06-14 10:38:23,141 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 10:40:40,702 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 10:40:40,709 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 10:40:40,709 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['(2019).', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'arXiv:1810.', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', '(2018).', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', 'arXiv:1906.', '1.'], '2': ['02243.', '(2019).', '2.', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '[2] Strubell, E.', '(2018).', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚']}
+2025-06-14 10:41:50,275 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 10:41:50,298 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:41:50,304 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:41:50,306 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:41:50,311 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:41:50,311 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '²Î¿¼ÎÄÏ× [1] Devlin, J.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'arXiv:1810.', '(2019).', 'arXiv:1906.', '1.', '(2018).'], '2': ['2.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '02243.', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '[2] Strubell, E.', '(2019).', '(2018).']}
+2025-06-14 10:41:50,313 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:41:50,315 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:41:50,315 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:41:50,316 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:41:50,317 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:41:50,325 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 10:41:50,347 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:41:50,352 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:41:50,353 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:41:50,354 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 10:41:50,354 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 10:41:50,355 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:41:50,356 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 10:41:50,357 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:41:52,047 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:41:55,407 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:41:55,408 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:41:55,409 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 10:41:55,409 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:41:55,804 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:41:57,177 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:41:57,178 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 10:41:57,178 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 10:41:57,209 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:41:57,213 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:41:57,214 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:41:57,217 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:41:57,219 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '²Î¿¼ÎÄÏ× [1] Devlin, J.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'arXiv:1810.', '(2019).', 'arXiv:1906.', '1.', '(2018).'], '2': ['2.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '02243.', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '[2] Strubell, E.', '(2019).', '(2018).']}
+2025-06-14 10:41:57,221 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:41:57,223 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 10:41:57,223 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-14 10:41:57,224 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-14 10:41:58,016 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:41:58,017 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:41:58,019 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-14 10:41:58,020 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:41:59,484 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-14 10:41:59,486 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-14 10:41:59,487 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-14 10:42:00,537 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:42:08,776 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:42:08,776 - reference_agent - INFO - ·ÖÎö: ÓÉÓÚÔ­ÎÄÒıÓÃ²¿·ÖÖ»Ìá¹©ÁËÒ»¸öÊı×Ö"1"£¬Ã»ÓĞÌá¹©ÈÎºÎ¾ßÌåµÄÒıÓÃÄÚÈİ»òÖ÷ÕÅ£¬Òò´ËÎŞ·¨½øĞĞÓĞĞ§µÄºË²éºÍ·ÖÎö¡£ÒªÅĞ¶ÏÒıÓÃÊÇ·ñ×¼È·£¬ĞèÒªÖªµÀ£º
+
+1. Ô­ÎÄÖĞ¾ßÌåÒıÓÃÁË²Î¿¼ÎÄÏ×µÄÄÄĞ©ÄÚÈİ
+2. ÒıÓÃµÄ¾ßÌå±íÊöÊÇÊ²Ã´
+3. ÒıÓÃµÄÉÏÏÂÎÄÊÇÊ²Ã´
+
+ÔÚÄ¿Ç°Ìá¹©µÄĞÅÏ¢ÖĞ£º
+- ²Î¿¼ÎÄÏ×ÊÇBERTÂÛÎÄµÄÕªÒªºÍ²¿·ÖÄÚÈİ
+- µ«Ô­ÎÄÒıÓÃ²¿·ÖÃ»ÓĞÌá¹©ÈÎºÎÊµÖÊĞÔÄÚÈİ
+
+ÅĞ¶Ï£º²»×¼È·£¨ÓÉÓÚÈ±·¦¿ÉºË²éµÄÒıÓÃÄÚÈİ£©
+
+½¨ÒéÌá¹©£º
+1. Ô­ÎÄÖĞ¾ßÌåµÄÒıÓÃ±íÊö
+2. ÒıÓÃµÄ¾ßÌåÎ»ÖÃ»òÒ³Âë
+3. ÒıÓÃµÄÉÏÏÂÎÄĞÅÏ¢
+
+Ö»ÓĞÕâÑù£¬²ÅÄÜ½øĞĞÓĞÒâÒåµÄÒıÓÃºË²é£¬·ÖÎöÒıÓÃÊÇ·ñ×¼È··´Ó³ÁË²Î¿¼ÎÄÏ×µÄÄÚÈİ¡£Ä¿Ç°µÄ"1"¿ÉÄÜÖ»ÊÇÒ»¸öÒıÓÃ±ê¼Ç£¬Ã»ÓĞÌá¹©×ã¹»µÄĞÅÏ¢À´½øĞĞºË²é¡£
+2025-06-14 10:42:08,780 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:42:08,781 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:42:08,781 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-14 10:42:08,781 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:42:09,708 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-14 10:42:09,708 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-14 10:42:09,709 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-14 10:42:09,786 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:42:20,827 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:42:20,828 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬Ã»ÓĞÈÎºÎÉÏÏÂÎÄ»òËµÃ÷¡£ÔÚÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİÖĞ£¬Ã»ÓĞÈÎºÎµØ·½Ö±½ÓÌáµ½»ò¿ÉÒÔ¶ÔÓ¦Õâ¸öÊı×Ö"2"¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİ¹ıÓÚ¼òÂÔÇÒÈ±·¦ÉÏÏÂÎÄ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ¡£µ«¿ÉÒÔÈ·¶¨µÄÊÇ£¬Õâ¸ö¹ÂÁ¢µÄÊı×Ö"2"ÍêÈ«²»ÄÜ·´Ó³²Î¿¼ÎÄÏ×µÄÈÎºÎÄÚÈİ»ò½áÂÛ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞÈ·Êµ°üº¬¶à¸ö¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼äµÈ£©£¬µ«Ã»ÓĞÒ»¸öÊı¾İÊÇ¼òµ¥µÄ"2"¡£Òò´ËÕâ¸öÒıÓÃÓë²Î¿¼ÎÄÏ×ÖĞµÄÊı¾İÍêÈ«²»Ò»ÖÂ¡£
+
+×Ü½á£ºÕâ¸öÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËü£º
+1) Ã»ÓĞÌá¹©ÈÎºÎ¿ÉÑéÖ¤µÄÒıÓÃµã
+2) Óë²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎÄÚÈİ¶¼²»¶ÔÓ¦
+3) È±·¦±ØÒªµÄÉÏÏÂÎÄÊ¹Æä³ÉÎªÓĞÒâÒåµÄÒıÓÃ
+4) ²»ÄÜ·´Ó³²Î¿¼ÎÄÏ×µÄÈÎºÎÖ÷Òª¹Ûµã»òÊı¾İ
+
+ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÃ÷È·Ö¸³öÒıÓÃµÄ¾ßÌåÄÚÈİÔÚÎÄÏ×ÖĞµÄÎ»ÖÃ£¨ÈçÕÂ½Ú¡¢±í¸ñ»òÒ³Âë£©£¬²¢Ìá¹©×ã¹»µÄÉÏÏÂÎÄÊ¹¶ÁÕßÄÜ¹»ÑéÖ¤ÒıÓÃµÄ×¼È·ĞÔ¡£
+2025-06-14 10:42:20,832 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-14 10:42:20,835 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_104220.json
+2025-06-14 10:42:20,837 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_104220.html
+2025-06-14 10:42:20,838 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 10:43:46,620 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 10:43:46,628 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 10:43:46,629 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['(2018).', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', 'arXiv:1906.', '1.', '(2019).', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', 'arXiv:1810.'], '2': ['(2018).', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '2.', '02243.', '(2019).', '[2] Strubell, E.', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚']}
+2025-06-14 10:43:47,005 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 10:43:47,034 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:43:47,038 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:43:47,039 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:43:47,042 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:43:47,043 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['arXiv:1810.', 'arXiv:1906.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '²Î¿¼ÎÄÏ× [1] Devlin, J.', '(2018).', '1.', '(2019).'], '2': ['[2] Strubell, E.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '02243.', '(2018).', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '2.', '(2019).']}
+2025-06-14 10:43:47,044 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:43:47,046 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:43:47,046 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:43:47,047 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:43:47,048 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:43:47,057 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 10:43:47,080 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:43:47,087 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:43:47,087 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:43:47,088 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 10:43:47,089 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 10:43:47,092 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:43:47,093 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 10:43:47,093 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:43:48,522 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:43:53,298 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:43:53,300 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:43:53,301 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 10:43:53,301 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:43:53,695 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:43:55,347 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:43:55,348 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 10:43:55,349 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 10:43:55,364 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:43:55,369 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:43:55,370 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:43:55,371 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:43:55,371 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['arXiv:1810.', 'arXiv:1906.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '²Î¿¼ÎÄÏ× [1] Devlin, J.', '(2018).', '1.', '(2019).'], '2': ['[2] Strubell, E.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '02243.', '(2018).', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '2.', '(2019).']}
+2025-06-14 10:43:55,373 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:43:55,373 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 10:43:55,373 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-14 10:43:55,374 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-14 10:43:55,828 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:43:55,829 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:43:55,829 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-14 10:43:55,830 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:43:57,472 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-14 10:43:57,473 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-14 10:43:57,474 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-14 10:43:58,624 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:44:11,186 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:44:11,186 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+   - Ô­ÎÄÒıÓÃ½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎÊµÖÊĞÔÄÚÈİ£¬ÍêÈ«ÎŞ·¨ÅĞ¶ÏÆäÓë²Î¿¼ÎÄÏ×µÄ¹ØÁªĞÔ¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÍêÕûÂÛÎÄ£¬°üº¬´óÁ¿¾ßÌåĞÅÏ¢£¬µ«Ô­ÎÄÒıÓÃÃ»ÓĞ·´Ó³³öÈÎºÎ¾ßÌåÄÚÈİ¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÊÇ¿ÕµÄ£¨½öÊı×Ö"1"£©£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó¡£µ«¿ÉÒÔÈ·¶¨µÄÊÇ£¬Õâ¸öÒıÓÃÍêÈ«Ã»ÓĞ´«´ï²Î¿¼ÎÄÏ×µÄÈÎºÎ½áÂÛ»òÖØÒªĞÅÏ¢¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+   - Ô­ÎÄÒıÓÃÃ»ÓĞÌá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬¶ø²Î¿¼ÎÄÏ×ÖĞ°üº¬´óÁ¿¾ßÌåÊı¾İ£¨ÈçGLUE score 80.5%£¬MultiNLI×¼È·ÂÊ86.7%µÈ£©£¬Òò´ËÎŞ·¨½øĞĞÒ»ÖÂĞÔ±È½Ï¡£
+
+×Ü½á£ºÕâÊÇÒ»¸öÍêÈ«²»×¼È·µÄÒıÓÃ£¬ÒòÎª£º
+1) ÒıÓÃ±ê¼Ç"1"Ã»ÓĞ¶ÔÓ¦ÈÎºÎÊµÖÊĞÔÄÚÈİ
+2) Ã»ÓĞ·´Ó³³ö²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎ¹Ø¼üĞÅÏ¢
+3) ¶ÁÕßÎŞ·¨Í¨¹ıÕâ¸öÒıÓÃ»ñÈ¡²Î¿¼ÎÄÏ×µÄÈÎºÎÓĞ¼ÛÖµĞÅÏ¢
+4) Î¥·´ÁËÑ§ÊõÒıÓÃÓ¦×¼È··´Ó³²Î¿¼ÎÄÏ×ÄÚÈİµÄ»ù±¾Ô­Ôò
+
+ÕıÈ·µÄÒıÓÃÓ¦¸ÃÖÁÉÙ°üº¬²Î¿¼ÎÄÏ×ÖĞµÄÄ³¸ö¾ßÌå¹Ûµã¡¢·½·¨»òÊı¾İ£¬²¢Ã÷È·±ê×¢ÆäÀ´Ô´¡£ÀıÈç¿ÉÒÔÒıÓÃBERTµÄË«ÏòÔ¤ÑµÁ··½·¨¡¢Æästate-of-the-artµÄ±íÏÖ£¬»ò¾ßÌåµÄĞÔÄÜÌáÉıÊı¾İµÈ¡£
+2025-06-14 10:44:11,189 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:44:11,190 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:44:11,190 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-14 10:44:11,190 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:44:11,720 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-14 10:44:11,721 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-14 10:44:11,722 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-14 10:44:11,841 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:44:22,798 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:44:22,799 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬Ã»ÓĞÈÎºÎÉÏÏÂÎÄ»òËµÃ÷¡£ÔÚÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİÖĞ£¬Ã»ÓĞÈÎºÎµØ·½Ö±½ÓÌáµ½»ò¿ÉÒÔ¶ÔÓ¦Õâ¸öÊı×Ö"2"¡£²Î¿¼ÎÄÏ×Ö÷ÒªÌÖÂÛµÄÊÇÉî¶ÈÑ§Ï°ÔÚNLPÖĞµÄÄÜÔ´ÏûºÄºÍÕş²ß¿¼ÂÇ£¬°üÀ¨¸÷ÖÖÄ£ĞÍµÄÑµÁ·³É±¾ºÍÌ¼ÅÅ·ÅÊı¾İµÈ¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃ½öÊÇÒ»¸ö¹ÂÁ¢µÄÊı×Ö"2"£¬ÎŞ·¨ÅĞ¶ÏËüÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄÈÎºÎ½áÂÛ¡£Õâ¸öÊı×ÖÓë²Î¿¼ÎÄÏ×ÖĞÌÖÂÛµÄÈÎºÎÖ÷Ìâ£¨ÈçÌ¼ÅÅ·ÅÊı¾İ¡¢Ä£ĞÍÑµÁ·Ê±¼ä¡¢ÄÜÔ´ÏûºÄµÈ£©¶¼Ã»ÓĞÃ÷ÏÔ¹ØÁª¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞ°üº¬¶à¸ö¾ßÌåÊı¾İ£¨Èç²»Í¬Ä£ĞÍÑµÁ·µÄCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼äµÈ£©£¬µ«Ã»ÓĞÒ»¸öÊı¾İÊÇ¼òµ¥µÄÊı×Ö"2"¡£Òò´ËÕâ¸öÒıÓÃÓë²Î¿¼ÎÄÏ×ÖĞµÄÊı¾İÍ³¼ÆĞÅÏ¢ÍêÈ«²»Ò»ÖÂ¡£
+
+×Ü½á£ºÕâ¸öÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËüÌá¹©µÄÊı×Ö"2"ÔÚ²Î¿¼ÎÄÏ×ÖĞÃ»ÓĞÈÎºÎ¶ÔÓ¦»òÏà¹ØµÄÄÚÈİ£¬Ò²Ã»ÓĞÌá¹©ÈÎºÎÉÏÏÂÎÄËµÃ÷Õâ¸öÊı×ÖµÄÀ´Ô´»òº¬Òå¡£ÕâÑùµÄÒıÓÃÎŞ·¨°ïÖú¶ÁÕßÀí½â»òÑéÖ¤ÈÎºÎĞÅÏ¢£¬ÍêÈ«²»·ûºÏÑ§ÊõÒıÓÃµÄ±ê×¼¡£
+2025-06-14 10:44:22,802 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-14 10:44:22,804 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_104422.json
+2025-06-14 10:44:22,806 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_104422.html
+2025-06-14 10:44:22,806 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 10:47:50,418 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 10:47:50,422 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 10:47:50,422 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['arXiv:1906.', '(2018).', 'arXiv:1810.', '(2019).', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', '1.', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚'], '2': ['(2018).', '[2] Strubell, E.', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '2.', '(2019).', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '02243.']}
+2025-06-14 10:49:21,135 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 10:49:21,169 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:49:21,174 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:49:21,175 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:49:21,180 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:49:21,180 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '1.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£'], '2': ['È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '2.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£']}
+2025-06-14 10:49:21,181 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:49:21,183 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:49:21,183 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:49:21,184 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 10:49:21,184 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 10:49:21,190 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 10:49:21,209 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:49:21,214 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:49:21,215 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:49:21,216 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 10:49:21,217 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 10:49:21,218 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:49:21,219 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 10:49:21,219 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:49:22,570 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:49:25,082 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:49:25,082 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:49:25,083 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 10:49:25,083 - arxiv - INFO - Sleeping: 0.476350 seconds
+2025-06-14 10:49:25,568 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 10:49:25,977 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 10:49:27,414 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:49:27,415 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 10:49:27,415 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 10:49:27,434 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 10:49:27,437 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 10:49:27,438 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 10:49:27,439 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 10:49:27,440 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', '1.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£'], '2': ['È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '2.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£']}
+2025-06-14 10:49:27,441 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 10:49:27,442 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 10:49:27,443 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-14 10:49:27,444 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-14 10:49:27,930 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 10:49:27,931 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:49:27,931 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-14 10:49:27,931 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 10:49:28,708 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-14 10:49:28,708 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-14 10:49:28,709 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-14 10:49:29,480 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:49:41,732 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:49:41,732 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**  
+   - Ô­ÎÄÒıÓÃ²¿·Ö½ö°üº¬Êı×Ö¡°1¡±£¬Ã»ÓĞÈÎºÎ¾ßÌåÄÚÈİ»òÊÂÊµ³ÂÊö¡£Òò´Ë£¬ÎŞ·¨ÅĞ¶Ï¸ÃÒıÓÃÊÇ·ñ·´Ó³ÁË²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎÊÂÊµ¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬°üº¬´óÁ¿¾ßÌåĞÅÏ¢£¨ÈçÄ£ĞÍ¼Ü¹¹¡¢Ô¤ÑµÁ··½·¨¡¢ÊµÑé½á¹ûµÈ£©£¬µ«Ô­ÎÄÒıÓÃÍêÈ«Ã»ÓĞÉæ¼°ÕâĞ©ÄÚÈİ¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**  
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÊÇ¿ÕµÄ£¨½ö¡°1¡±£©£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó¡£ÒıÓÃ²¿·ÖÎ´Ìá¹©ÈÎºÎ½áÂÛ»ò¹Ûµã£¬Òò´ËÎŞ·¨Óë²Î¿¼ÎÄÏ×µÄÄÚÈİ½øĞĞ±È½Ï¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**  
+   - Ô­ÎÄÒıÓÃÎ´Ìá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬¶ø²Î¿¼ÎÄÏ×ÖĞ°üº¬ÁË´óÁ¿ÊµÑéÊı¾İ£¨ÈçGLUE·ÖÊı¡¢MultiNLI×¼È·ÂÊ¡¢SQuAD F1·ÖÊıµÈ£©¡£Òò´Ë£¬ÎŞ·¨ÅĞ¶ÏÒ»ÖÂĞÔ¡£
+
+### ×Ü½á£º
+Ô­ÎÄÒıÓÃ¡°1¡±ÍêÈ«Î´Ìá¹©ÈÎºÎÊµÖÊĞÔÄÚÈİ£¬ÎŞ·¨Óë²Î¿¼ÎÄÏ×½¨Á¢ÈÎºÎ¹ØÁª¡£¸ù¾İÑ§ÊõÒıÓÃ¹æ·¶£¬ÒıÓÃÓ¦Ã÷È·Ö¸Ïò²Î¿¼ÎÄÏ×ÖĞµÄ¾ßÌåÄÚÈİ£¨Èç¹Ûµã¡¢Êı¾İ¡¢·½·¨µÈ£©£¬¶ø´Ë´¦Î´Âú×ãÕâÒ»»ù±¾ÒªÇó¡£Òò´Ë£¬ÅĞ¶ÏÎª¡°²»×¼È·¡±¡£
+2025-06-14 10:49:41,735 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 10:49:41,735 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 10:49:41,736 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-14 10:49:41,736 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 10:49:42,233 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-14 10:49:42,234 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-14 10:49:42,234 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-14 10:49:42,408 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 10:49:54,764 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 10:49:54,765 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬Ã»ÓĞÈÎºÎÉÏÏÂÎÄ»òËµÃ÷¡£ÔÚÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİÖĞ£¬Ã»ÓĞÈÎºÎµØ·½Ö±½ÓÌáµ½»ò¿ÉÒÔ¶ÔÓ¦Õâ¸öÊı×Ö"2"¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİ¹ıÓÚ¼òÂÔÇÒÈ±·¦ÉÏÏÂÎÄ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ¡£µ«¿ÉÒÔÈ·¶¨µÄÊÇ£¬Õâ¸ö¹ÂÁ¢µÄÊı×Ö"2"ÍêÈ«Ã»ÓĞ·´Ó³²Î¿¼ÎÄÏ×ÖĞ¹ØÓÚÉî¶ÈÑ§Ï°ÔÚNLPÖĞµÄÄÜÔ´ÏûºÄºÍÕş²ß¿¼ÂÇµÄºËĞÄÄÚÈİ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞÈ·Êµ°üº¬ÁËĞí¶à¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÑµÁ·Ê±¼äµÈ£©£¬µ«Ã»ÓĞÒ»¸öÊı¾İÊÇ¼òµ¥µÄ"2"¡£×î½Ó½üµÄ¿ÉÄÜÊÇÖ¸"2Äê"»ò"2¸öGPU"µÈ£¬µ«ÕâĞ©¶¼ĞèÒª¾ßÌåÉÏÏÂÎÄÖ§³Ö¡£
+
+×Ü½á£ºÕâ¸öÒıÓÃÍêÈ«²»×¼È·£¬ÒòÎªËü£º
+1) Ã»ÓĞÌá¹©ÈÎºÎ¿É×·ËİµÄÉÏÏÂÎÄ
+2) Ã»ÓĞ¶ÔÓ¦²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎ¾ßÌåÄÚÈİ
+3) ÎŞ·¨ÈÃ¶ÁÕßÀí½âÕâ¸öÊı×Ö"2"´ú±íÊ²Ã´
+4) ÍêÈ«²»ÄÜ·´Ó³ÕâÆª¹ØÓÚNLPÄ£ĞÍÑµÁ·ÄÜÔ´ÏûºÄºÍÕş²ß½¨ÒéµÄÂÛÎÄµÄºËĞÄÄÚÈİ
+
+ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÖÁÉÙ°üº¬ÒıÓÃµÄ¾ßÌåÄÚÈİ£¨ÈçÄ³¸öÊı¾İ¡¢¹Ûµã»ò½áÂÛ£©¼°ÆäÔÚÔ­ÎÄÖĞµÄÎ»ÖÃ£¨ÈçÕÂ½Ú¡¢±í¸ñ»òÒ³Âë£©£¬ÒÔ±ã¶ÁÕß¿ÉÒÔ²éÖ¤¡£
+2025-06-14 10:49:54,768 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-14 10:49:54,769 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_104954.json
+2025-06-14 10:49:54,771 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_104954.html
+2025-06-14 10:49:54,771 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 10:51:49,268 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 10:51:49,276 - reference_agent - INFO - æå–åˆ° 0 ä¸ªå¼•ç”¨
+2025-06-14 10:51:49,276 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {}
+2025-06-14 11:02:21,347 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 11:02:21,359 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:02:21,362 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:02:21,363 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:02:21,366 - reference_agent - INFO - ÌáÈ¡µ½ 0 ¸öÒıÓÃ
+2025-06-14 11:02:21,366 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {}
+2025-06-14 11:02:21,366 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 0 ¸öÒıÓÃ
+2025-06-14 11:02:21,368 - reference_agent - INFO - ·¢ÏÖ 2 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 11:02:21,368 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 11:02:21,372 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬0 ¸öÒıÓÃ
+2025-06-14 11:02:21,385 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:02:21,387 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:02:21,388 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:02:21,388 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 11:02:21,389 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 11:02:21,390 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 11:02:21,391 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 11:02:21,391 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 11:02:22,756 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 11:02:26,514 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 11:02:26,514 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 11:02:26,515 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 11:02:26,516 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 11:02:26,923 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 11:02:29,730 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 11:02:29,731 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 11:02:29,731 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 11:02:29,742 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:02:29,746 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:02:29,747 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:02:29,747 - reference_agent - INFO - ÌáÈ¡µ½ 0 ¸öÒıÓÃ
+2025-06-14 11:02:29,748 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {}
+2025-06-14 11:02:29,748 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 0 ¸öÒıÓÃ
+2025-06-14 11:02:29,748 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 11:02:29,749 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 0 Ìõ
+2025-06-14 11:02:29,749 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {}
+2025-06-14 11:02:30,068 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 0 ¸öÒıÓÃ
+2025-06-14 11:02:30,070 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_110230.json
+2025-06-14 11:02:30,072 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_110230.html
+2025-06-14 11:02:30,072 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 11:04:27,521 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 11:04:27,557 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:04:27,562 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:04:27,563 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:04:27,567 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 11:04:27,567 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['1.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£'], '2': ['È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '2.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£']}
+2025-06-14 11:04:27,569 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 11:04:27,570 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 11:04:27,571 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 11:04:27,572 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 11:04:27,572 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 11:04:27,580 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 11:04:27,605 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:04:27,610 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:04:27,612 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:04:27,612 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 11:04:27,614 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 11:04:27,615 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 11:04:27,616 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 11:04:27,617 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 11:04:29,084 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 11:04:30,130 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 11:04:30,134 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 11:04:30,134 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['å‚è€ƒæ–‡çŒ® [1] Devlin, J.', '(2018).', 'arXiv:1810.', '(2019).', 'arXiv:1906.', '1.', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚'], '2': ['Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '2.', '(2018).', '02243.', '[2] Strubell, E.', '(2019).', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚']}
+2025-06-14 11:04:32,762 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 11:04:32,763 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 11:04:32,763 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 11:04:32,764 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 11:04:33,162 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 11:04:34,211 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 11:04:34,212 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 11:04:34,212 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 11:04:34,237 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:04:34,241 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:04:34,242 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:04:34,246 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 11:04:34,247 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['1.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£'], '2': ['È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', '2.', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£']}
+2025-06-14 11:04:34,249 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 11:04:34,250 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 11:04:34,251 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-14 11:04:34,251 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-14 11:04:34,868 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 11:04:34,868 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 11:04:34,869 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-14 11:04:34,869 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 11:04:35,834 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-14 11:04:35,835 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-14 11:04:35,835 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-14 11:04:36,600 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 11:04:46,790 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 11:04:46,790 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**  
+   - Ô­ÎÄÒıÓÃ²¿·Ö½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎ¾ßÌåÄÚÈİ»òÊÂÊµ³ÂÊö¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬°üº¬´óÁ¿¹ØÓÚÄ£ĞÍ¼Ü¹¹¡¢Ô¤ÑµÁ··½·¨¡¢ÊµÑé½á¹ûµÈĞÅÏ¢¡£µ«Ô­ÎÄÒıÓÃÃ»ÓĞÖ¸ÏòÈÎºÎ¾ßÌåµÄÊÂÊµ»òĞÅÏ¢£¬Òò´ËÎŞ·¨È·ÈÏÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**  
+   - ÓÉÓÚÔ­ÎÄÒıÓÃ²¿·ÖÃ»ÓĞÈÎºÎ¾ßÌåÄÚÈİ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó²Î¿¼ÎÄÏ×½áÂÛµÄÇé¿ö¡£ÒıÓÃ²¿·ÖÍêÈ«È±Ê§£¬ÎŞ·¨Óë²Î¿¼ÎÄÏ×µÄÈÎºÎ²¿·Ö½øĞĞ¶Ô±È¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**  
+   - Í¬Ñù£¬Ô­ÎÄÒıÓÃ²¿·ÖÃ»ÓĞÌá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬Òò´ËÎŞ·¨ÅĞ¶ÏÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ¡£
+
+### ×Ü½á£º  
+Ô­ÎÄÒıÓÃ²¿·Ö½öÎªÊı×Ö"1"£¬Ã»ÓĞÌá¹©ÈÎºÎ¾ßÌåÄÚÈİ»òÖ¸Ïò²Î¿¼ÎÄÏ×ÖĞµÄÌØ¶¨²¿·Ö£¬Òò´ËÎŞ·¨È·ÈÏÆä×¼È·ĞÔ¡£ÕâÖÖÒıÓÃ·½Ê½ÊÇ²»ÍêÕûµÄ£¬ÎŞ·¨Æğµ½Ñ§ÊõÒıÓÃµÄ×÷ÓÃ¡£ÕıÈ·µÄÒıÓÃÓ¦Ã÷È·Ö¸³ö²Î¿¼ÎÄÏ×ÖĞµÄ¾ßÌåÄÚÈİ¡¢Êı¾İ»ò½áÂÛ¡£Òò´Ë£¬ÅĞ¶ÏÎª¡°²»×¼È·¡±¡£
+2025-06-14 11:04:46,793 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 11:04:46,794 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 11:04:46,794 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-14 11:04:46,795 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 11:04:47,401 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-14 11:04:47,402 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-14 11:04:47,402 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-14 11:04:47,480 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 11:04:57,480 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 11:04:57,481 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬¶ø²Î¿¼ÎÄÏ×ÄÚÈİÊÇÒ»ÆªÍêÕûµÄÑ§ÊõÂÛÎÄ£¬ÌÖÂÛµÄÊÇÉî¶ÈÑ§Ï°ÔÚNLPÖĞµÄÄÜÔ´ºÍÕş²ß¿¼ÂÇ¡£Êı×Ö"2"ÔÚ²Î¿¼ÎÄÏ×ÖĞÃ»ÓĞÈÎºÎ¶ÔÓ¦ÄÚÈİ»òº¬Òå¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİÓë²Î¿¼ÎÄÏ×ÍêÈ«ÎŞ¹Ø£¬ÕâÒÑ¾­³¬³öÁËÇú½â»ò¿ä´óµÄ·¶³ë£¬¶øÊÇÍêÈ«´íÎóµÄÒıÓÃ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞ°üº¬´óÁ¿¹ØÓÚNLPÄ£ĞÍÑµÁ·ÄÜºÄ¡¢Ì¼ÅÅ·ÅµÈ¾ßÌåÊı¾İ£¨Èç±í1ÖĞµÄCO2ÅÅ·ÅÁ¿±È½Ï£©£¬µ«ÕâĞ©ÓëÊı×Ö"2"Ã»ÓĞÈÎºÎ¹ØÁª¡£
+
+×Ü½á£ºÕâÊÇÒ»¸öÍêÈ«²»×¼È·µÄÒıÓÃ£¬ÒòÎª£º
+1) ÒıÓÃÄÚÈİÓë²Î¿¼ÎÄÏ×ºÁÎŞ¹ØÁª
+2) ²Î¿¼ÎÄÏ×ÖĞ²»´æÔÚÈÎºÎÓë"2"Ïà¹ØµÄÄÚÈİ
+3) ÕâÖÖÒıÓÃ·½Ê½ÍêÈ«ÎŞ·¨·´Ó³²Î¿¼ÎÄÏ×µÄÊµ¼ÊÄÚÈİ
+4) ÕâÖÖ´íÎóÒıÓÃ¿ÉÄÜ»áÑÏÖØÎóµ¼¶ÁÕß¶Ô²Î¿¼ÎÄÏ×ÄÚÈİµÄÀí½â
+
+ÕıÈ·µÄÒıÓÃÓ¦¸ÃÃ÷È·Ö¸³ö²Î¿¼ÎÄÏ×ÖĞ¾ßÌåµÄ¹Ûµã¡¢Êı¾İ»ò½áÂÛ£¬¶ø²»ÊÇËæÒâÌá¹©Ò»¸öÎŞ¹ØµÄÊı×Ö¡£
+2025-06-14 11:04:57,483 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-14 11:04:57,484 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_110457.json
+2025-06-14 11:04:57,485 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_110457.html
+2025-06-14 11:04:57,486 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 11:05:13,260 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 11:05:13,267 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 11:05:13,267 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', '(2019).', 'arXiv:1906.', '(2018).', '1.', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', 'arXiv:1810.'], '2': ['(2019).', '02243.', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '(2018).', '2.', '[2] Strubell, E.']}
+2025-06-14 11:05:30,946 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 11:05:30,949 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 11:05:30,949 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['arXiv:1906.', '(2018).', '1.', '(2019).', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'arXiv:1810.', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚'], '2': ['[2] Strubell, E.', '(2018).', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '(2019).', '2.', '02243.', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚']}
+2025-06-14 11:16:38,616 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 11:16:38,621 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 11:16:38,621 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['å‚è€ƒæ–‡çŒ® [1] Devlin, J.', 'arXiv:1810.', '1.', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', '(2018).', '(2019).', 'arXiv:1906.'], '2': ['ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '2.', '(2018).', '02243.', '(2019).', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '[2] Strubell, E.']}
+2025-06-14 11:16:45,272 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 11:16:45,274 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:16:45,275 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:16:45,275 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:16:45,275 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:16:45,275 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:16:45,275 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:16:45,277 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 11:16:45,277 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['å‚è€ƒæ–‡çŒ® [1] Devlin, J.', '(2019).', '1.', 'arXiv:1906.', 'arXiv:1810.', '(2018).', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚'], '2': ['2.', '(2019).', '[2] Strubell, E.', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '(2018).', '02243.', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚']}
+2025-06-14 11:16:52,168 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 11:16:52,183 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:16:52,186 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:16:52,187 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:16:52,187 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: 1
+2025-06-14 11:16:52,188 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: 2
+2025-06-14 11:16:52,188 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: 1
+2025-06-14 11:16:52,188 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: 2
+2025-06-14 11:16:52,190 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 11:16:52,190 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['1.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£'], '2': ['StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '2.', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£']}
+2025-06-14 11:16:52,191 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 11:16:52,192 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 11:16:52,192 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 11:16:52,192 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 11:16:52,193 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 11:16:52,198 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 11:16:52,211 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:16:52,214 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:16:52,215 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:16:52,216 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 11:16:52,217 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 11:16:52,217 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 11:16:52,218 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 11:16:52,218 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 11:16:53,516 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 11:16:56,904 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 11:16:56,905 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 11:16:56,906 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 11:16:56,906 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 11:16:57,305 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 11:16:58,953 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 11:16:58,954 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 11:16:58,954 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 11:16:58,969 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 11:16:58,971 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 11:16:58,972 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 11:16:58,972 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: 1
+2025-06-14 11:16:58,973 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: 2
+2025-06-14 11:16:58,973 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: 1
+2025-06-14 11:16:58,974 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: 2
+2025-06-14 11:16:58,974 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 11:16:58,975 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'1': ['1.', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£', 'ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£'], '2': ['StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£', '2.', 'È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£']}
+2025-06-14 11:16:58,976 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 11:16:58,976 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 11:16:58,977 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-14 11:16:58,977 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['1'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['2']}
+2025-06-14 11:16:59,327 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 11:16:59,327 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 11:16:59,328 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['1']
+2025-06-14 11:16:59,328 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 11:17:00,011 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-14 11:17:00,013 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 1...
+2025-06-14 11:17:00,014 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-14 11:17:00,683 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 11:17:11,825 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 11:17:11,826 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**  
+   - Ô­ÎÄÒıÓÃ²¿·Ö½ö°üº¬Êı×Ö"1"£¬Ã»ÓĞÈÎºÎ¾ßÌåÄÚÈİ»òÊÂÊµ³ÂÊö¡£Òò´Ë£¬ÎŞ·¨ÅĞ¶Ï¸ÃÒıÓÃÊÇ·ñ·´Ó³ÁË²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎÊÂÊµ¡£²Î¿¼ÎÄÏ×ÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬°üº¬´óÁ¿¹ØÓÚÄ£ĞÍ¼Ü¹¹¡¢Ô¤ÑµÁ··½·¨¡¢ÊµÑé½á¹ûµÈĞÅÏ¢£¬µ«Ô­ÎÄÒıÓÃÃ»ÓĞÖ¸ÏòÈÎºÎ¾ßÌåÄÚÈİ¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**  
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÃ»ÓĞÌá¹©ÈÎºÎ¾ßÌåĞÅÏ¢£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó¡£ÒıÓÃ²¿·ÖÍêÈ«È±Ê§£¬ÎŞ·¨Óë²Î¿¼ÎÄÏ×µÄÄÚÈİ½øĞĞ¶Ô±È¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**  
+   - Í¬Ñù£¬Ô­ÎÄÒıÓÃÎ´Ìá¹©ÈÎºÎÊı¾İ»òÍ³¼ÆĞÅÏ¢£¬Òò´ËÎŞ·¨ÑéÖ¤ÆäÒ»ÖÂĞÔ¡£²Î¿¼ÎÄÏ×ÖĞ°üº¬´óÁ¿ÊµÑéÊı¾İ£¨ÈçGLUE·ÖÊı¡¢MultiNLI×¼È·ÂÊµÈ£©£¬µ«ÒıÓÃ²¿·ÖÎ´Ìá¼°ÈÎºÎÏà¹ØÄÚÈİ¡£
+
+### ×Ü½á£º
+Ô­ÎÄÒıÓÃ²¿·Ö½öÎªÊı×Ö"1"£¬Î´Ìá¹©ÈÎºÎ¾ßÌåĞÅÏ¢»òÄÚÈİ£¬Òò´ËÎŞ·¨Óë²Î¿¼ÎÄÏ×½¨Á¢ÈÎºÎ¹ØÁª¡£ÕâÖÖÒıÓÃ·½Ê½ÊÇ²»×¼È·µÄ£¬ÒòÎªËüÃ»ÓĞÖ¸Ïò²Î¿¼ÎÄÏ×ÖĞµÄÈÎºÎ¾ßÌåÊÂÊµ¡¢½áÂÛ»òÊı¾İ¡£ÕıÈ·µÄÒıÓÃÓ¦Ã÷È·Ö¸³ö²Î¿¼ÎÄÏ×ÖĞµÄ¾ßÌåÄÚÈİ»ò¹Ûµã¡£
+2025-06-14 11:17:11,827 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 11:17:11,827 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 11:17:11,828 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['2']
+2025-06-14 11:17:11,828 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 11:17:12,294 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-14 11:17:12,294 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: 2...
+2025-06-14 11:17:12,295 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-14 11:17:12,374 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 11:17:22,027 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 11:17:22,027 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+- Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸öÊı×Ö"2"£¬¶ø²Î¿¼ÎÄÏ×ÄÚÈİÊÇÒ»ÆªÍêÕûµÄÑ§ÊõÂÛÎÄ£¬ÌÖÂÛµÄÊÇÉî¶ÈÑ§Ï°ÔÚNLPÖĞµÄÄÜÔ´ºÍÕş²ß¿¼ÂÇ¡£Êı×Ö"2"ÔÚ²Î¿¼ÎÄÏ×ÖĞÍêÈ«²»´æÔÚ£¬Ò²Ã»ÓĞÈÎºÎÏà¹ØÄÚÈİ¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+- ÓÉÓÚÒıÓÃÄÚÈİÓë²Î¿¼ÎÄÏ×ÍêÈ«ÎŞ¹Ø£¬ÕâÒÑ¾­³¬³öÁËÇú½â»ò¿ä´óµÄ·¶³ë£¬¶øÊÇÍêÈ«²»Ïà¹ØµÄÒıÓÃ¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+- ²Î¿¼ÎÄÏ×ÖĞ°üº¬´óÁ¿¹ØÓÚNLPÄ£ĞÍÑµÁ·ÄÜºÄ¡¢Ì¼ÅÅ·ÅµÈ¾ßÌåÊı¾İ£¨Èç±í1ÖĞµÄCO2ÅÅ·ÅÁ¿±È½Ï£©£¬µ«ÕâĞ©ÓëÊı×Ö"2"ºÁÎŞ¹ØÁª¡£
+
+×Ü½á£ºÕâÊÇÒ»¸öÍêÈ«²»×¼È·µÄÒıÓÃ°¸Àı¡£ÒıÓÃÕß¿ÉÄÜ´íÎóµØ¸´ÖÆÁËÒıÓÃ±ê¼Ç»ò±àºÅ£¬µ«Ìá¹©µÄÊı×ÖÓë²Î¿¼ÎÄÏ×ÄÚÈİÃ»ÓĞÈÎºÎ¶ÔÓ¦¹ØÏµ¡£ÕıÈ·µÄÑ§ÊõÒıÓÃÓ¦¸ÃÃ÷È·Ö¸³öÒıÓÃµÄ¾ßÌåÄÚÈİÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÎ»ÖÃ£¨ÈçÒ³Âë¡¢ÕÂ½Ú»ò±í¸ñ±àºÅ£©£¬²¢È·±£ÒıÓÃµÄÄÚÈİÈ·Êµ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ¡£
+2025-06-14 11:17:22,030 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-14 11:17:22,032 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_111722.json
+2025-06-14 11:17:22,034 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_111722.html
+2025-06-14 11:17:22,034 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É
+2025-06-14 11:33:13,024 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 11:33:13,031 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:33:13,032 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:33:13,032 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:33:13,033 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:33:13,033 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:33:13,033 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:33:13,035 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 11:33:13,035 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', '(2018).', 'arXiv:1906.', '1.', '(2019).', 'arXiv:1810.'], '2': ['02243.', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '(2018).', '(2019).', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '[2] Strubell, E.', '2.']}
+2025-06-14 11:33:22,301 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 11:33:22,302 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:33:22,303 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:33:22,303 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:33:22,303 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:33:22,303 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:33:22,303 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:33:22,305 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 11:33:22,305 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'1': ['1.', '(2018).', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', 'arXiv:1810.', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'arXiv:1906.', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', '(2019).'], '2': ['ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚', '(2018).', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '02243.', '2.', '[2] Strubell, E.', '(2019).']}
+2025-06-14 11:33:30,482 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 11:33:30,484 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 2
+2025-06-14 11:33:30,484 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: 1
+2025-06-14 11:33:30,486 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 11:33:30,486 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'2': ['Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', '2.', '(2019).', '02243.', '[2] Strubell, E.', '(2018).', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚'], '1': ['å‚è€ƒæ–‡çŒ® [1] Devlin, J.', 'arXiv:1810.', '1.', '(2019).', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚', 'BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', '(2018).', 'arXiv:1906.']}
+2025-06-14 14:45:29,800 - reference_agent - INFO - æˆåŠŸåŠ è½½æ–‡æ¡£: arxiv_test_paper.docx
+2025-06-14 14:45:29,802 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: [1]
+2025-06-14 14:45:29,803 - reference_agent - INFO - æå–åˆ°å¼•ç”¨: [2]
+2025-06-14 14:45:29,805 - reference_agent - INFO - æå–åˆ° 2 ä¸ªå¼•ç”¨
+2025-06-14 14:45:29,806 - reference_agent - INFO - æå–åˆ°çš„å¼•ç”¨: {'[1]': ['BERT(Bidirectional Encoder Representations from Transformers)æ˜¯ä¸€ç§åŸºäºTransformerçš„é¢„è®­ç»ƒè¯­è¨€æ¨¡å‹ï¼Œå®ƒé€šè¿‡åŒå‘ä¸Šä¸‹æ–‡å­¦ä¹ è·å–æ›´ä¸°å¯Œçš„è¯­è¨€è¡¨ç¤º[1]ã€‚', 'å‚è€ƒæ–‡çŒ® [1] Devlin, J.', 'ç ”ç©¶è¡¨æ˜ï¼Œè¿™äº›æ¨¡å‹åœ¨æ–‡æœ¬åˆ†ç±»ã€é—®ç­”ç³»ç»Ÿå’Œæœºå™¨ç¿»è¯‘ç­‰ä»»åŠ¡ä¸Šå–å¾—äº†æ˜¾è‘—çš„æ€§èƒ½æå‡[1]ã€‚'], '[2]': ['[2] Strubell, E.', 'Strubellç­‰äººçš„ç ”ç©¶æŒ‡å‡ºï¼Œè®­ç»ƒå¤§å‹NLPæ¨¡å‹ä¼šæ¶ˆè€—å¤§é‡èƒ½æºå¹¶äº§ç”Ÿç›¸åº”çš„ç¢³æ’æ”¾[2]ã€‚', 'ç„¶è€Œï¼Œè¿™äº›å¤§å‹æ¨¡å‹ä¹Ÿå¸¦æ¥äº†è®¡ç®—èµ„æºéœ€æ±‚å¢åŠ å’Œç¯å¢ƒå½±å“ç­‰é—®é¢˜[2]ã€‚']}
+2025-06-14 14:47:44,029 - reference_agent - INFO - ¿ªÊ¼ÒıÎÄºË²é: arxiv_test_paper.docx
+2025-06-14 14:47:44,050 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 14:47:44,054 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 14:47:44,056 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 14:47:44,057 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: [1]
+2025-06-14 14:47:44,060 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: [2]
+2025-06-14 14:47:44,063 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 14:47:44,064 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'[1]': ['ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£'], '[2]': ['È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£']}
+2025-06-14 14:47:44,065 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 14:47:44,067 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 14:47:44,067 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 14:47:44,069 - reference_agent - INFO - ·¢ÏÖ 0 ÌõÎ´±»ÒıÓÃµÄ²Î¿¼ÎÄÏ×
+2025-06-14 14:47:44,069 - reference_agent - INFO - ·¢ÏÖ 0 ¸öÒıÓÃµ«Î´ÔÚ²Î¿¼ÎÄÏ×ÖĞµÄÒıÓÃ
+2025-06-14 14:47:44,078 - reference_agent - INFO - ÒıÎÄºË²éÍê³É£¬¹² 2 Ìõ²Î¿¼ÎÄÏ×£¬2 ¸öÒıÓÃ
+2025-06-14 14:47:44,100 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 14:47:44,102 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 14:47:44,103 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 14:47:44,103 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÁĞ±í: ['[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.', '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.']
+2025-06-14 14:47:44,104 - reference_agent - INFO - ¿ªÊ¼ÏÂÔØ²Î¿¼ÎÄÏ×£¬¹² 2 Ìõ
+2025-06-14 14:47:44,105 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 1/2: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 14:47:44,105 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1810.04805
+2025-06-14 14:47:44,106 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1810.04805&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 14:47:45,670 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 14:47:51,708 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 14:47:51,710 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ× 2/2: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 14:47:51,711 - reference_agent - INFO - ÏÂÔØarXivÂÛÎÄ: 1906.02243
+2025-06-14 14:47:51,712 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=1906.02243&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-14 14:47:52,108 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-06-14 14:47:53,818 - reference_agent - INFO - ³É¹¦ÏÂÔØÂÛÎÄµ½: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 14:47:53,819 - reference_agent - INFO - ³É¹¦ÏÂÔØ 2/2 ÆªÂÛÎÄ
+2025-06-14 14:47:53,820 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÏÂÔØÍê³É£¬³É¹¦ÏÂÔØ 2/2 Æª
+2025-06-14 14:47:53,838 - reference_agent - INFO - ³É¹¦¼ÓÔØÎÄµµ: arxiv_test_paper.docx
+2025-06-14 14:47:53,841 - reference_agent - INFO - ÌáÈ¡µ½²Î¿¼ÎÄÏ×²¿·Ö£¬³¤¶È: 293 ×Ö·û
+2025-06-14 14:47:53,844 - reference_agent - INFO - Ê¹ÓÃÄ£Ê½ '\[\d+\]\s+.+' ½âÎöµ½ 2 Ìõ²Î¿¼ÎÄÏ×
+2025-06-14 14:47:53,844 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: [1]
+2025-06-14 14:47:53,845 - reference_agent - INFO - ÌáÈ¡µ½ÒıÓÃ: [2]
+2025-06-14 14:47:53,845 - reference_agent - INFO - ÌáÈ¡µ½ 2 ¸öÒıÓÃ
+2025-06-14 14:47:53,846 - reference_agent - INFO - ÌáÈ¡µ½µÄÒıÓÃ: {'[1]': ['ÑĞ¾¿±íÃ÷£¬ÕâĞ©Ä£ĞÍÔÚÎÄ±¾·ÖÀà¡¢ÎÊ´ğÏµÍ³ºÍ»úÆ÷·­ÒëµÈÈÎÎñÉÏÈ¡µÃÁËÏÔÖøµÄĞÔÄÜÌáÉı[1]¡£', 'BERT(Bidirectional Encoder Representations from Transformers)ÊÇÒ»ÖÖ»ùÓÚTransformerµÄÔ¤ÑµÁ·ÓïÑÔÄ£ĞÍ£¬ËüÍ¨¹ıË«ÏòÉÏÏÂÎÄÑ§Ï°»ñÈ¡¸ü·á¸»µÄÓïÑÔ±íÊ¾[1]¡£'], '[2]': ['È»¶ø£¬ÕâĞ©´óĞÍÄ£ĞÍÒ²´øÀ´ÁË¼ÆËã×ÊÔ´ĞèÇóÔö¼ÓºÍ»·¾³Ó°ÏìµÈÎÊÌâ[2]¡£', 'StrubellµÈÈËµÄÑĞ¾¿Ö¸³ö£¬ÑµÁ·´óĞÍNLPÄ£ĞÍ»áÏûºÄ´óÁ¿ÄÜÔ´²¢²úÉúÏàÓ¦µÄÌ¼ÅÅ·Å[2]¡£']}
+2025-06-14 14:47:53,847 - reference_agent - INFO - ¼ÓÔØÁË 2 Ìõ²Î¿¼ÎÄÏ×ºÍ 2 ¸öÒıÓÃ
+2025-06-14 14:47:53,847 - reference_agent - INFO - ¿ªÊ¼ÑéÖ¤ÒıÓÃÄÚÈİ
+2025-06-14 14:47:53,848 - reference_agent - INFO - ¹¹½¨ÒıÓÃÄÚÈİÓ³Éä£¬¹² 2 Ìõ
+2025-06-14 14:47:53,848 - reference_agent - INFO - ÒıÓÃÄÚÈİÓ³ÉäÊ¾Àı: {'[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.': ['[1]'], '[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.': ['[2]']}
+2025-06-14 14:47:54,340 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [1] Devlin, J., Chang, M. W., Lee, K., & Toutanova...
+2025-06-14 14:47:54,341 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 14:47:54,341 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['[1]']
+2025-06-14 14:47:54,341 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf
+2025-06-14 14:47:55,287 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 64064 ×Ö·û
+2025-06-14 14:47:55,288 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: [1]...
+2025-06-14 14:47:55,288 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: BERT: Pre-training of Deep Bidirectional Transform...
+2025-06-14 14:47:55,979 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 14:48:08,003 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 14:48:08,004 - reference_agent - INFO - ·ÖÎö: ### ÅĞ¶Ï½á¹û£º²»×¼È·
+
+### ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. **ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ**£º
+   - Ô­ÎÄÒıÓÃ[1]ÊÇ¿ÕµÄ£¬Ã»ÓĞÌá¹©ÈÎºÎ¾ßÌåµÄÒıÓÃÄÚÈİ¡£Òò´Ë£¬ÎŞ·¨ÅĞ¶ÏÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ¡£ÓÉÓÚÃ»ÓĞ¾ßÌåµÄÒıÓÃÎÄ±¾£¬ÎÒÃÇÎŞ·¨½øĞĞÈÎºÎÊµÖÊĞÔ±È½Ï¡£
+
+2. **ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ**£º
+   - ÓÉÓÚÔ­ÎÄÒıÓÃÊÇ¿ÕµÄ£¬ÎŞ·¨ÅĞ¶ÏÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó²Î¿¼ÎÄÏ×½áÂÛµÄÇé¿ö¡£Ã»ÓĞÒıÓÃÄÚÈİ£¬Ò²¾ÍÎŞ·¨Óë²Î¿¼ÎÄÏ×µÄ½áÂÛ½øĞĞ¶Ô±È¡£
+
+3. **ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ**£º
+   - Í¬Ñù£¬ÓÉÓÚÔ­ÎÄÒıÓÃÊÇ¿ÕµÄ£¬ÎŞ·¨ÅĞ¶ÏÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ¡£²Î¿¼ÎÄÏ×ÖĞÈ·Êµ°üº¬ÁËĞí¶à¾ßÌåµÄÊı¾İºÍÍ³¼ÆĞÅÏ¢£¨ÈçGLUE score¡¢MultiNLI accuracy¡¢SQuAD v1.1ºÍv2.0µÄF1·ÖÊıµÈ£©£¬µ«Ã»ÓĞÒıÓÃÄÚÈİ£¬ÎŞ·¨½øĞĞ±È½Ï¡£
+
+### ×Ü½á£º
+ÓÉÓÚÔ­ÎÄÒıÓÃ[1]ÊÇ¿ÕµÄ£¬Ã»ÓĞÌá¹©ÈÎºÎ¾ßÌåµÄÒıÓÃÄÚÈİ£¬Òò´ËÎŞ·¨ÑéÖ¤Æä×¼È·ĞÔ¡£¸ù¾İÌá¹©µÄ²Î¿¼ÎÄÏ×ÄÚÈİ£¬¿ÉÒÔÈ·ÈÏµÄÊÇ²Î¿¼ÎÄÏ×±¾ÉíÊÇÒ»Æª¹ØÓÚBERTÄ£ĞÍµÄÏêÏ¸ÂÛÎÄ£¬½éÉÜÁËÆä¼Ü¹¹¡¢Ô¤ÑµÁ··½·¨¡¢ÊµÑé½á¹ûµÈ¡£µ«È±·¦¾ßÌåµÄÒıÓÃÄÚÈİ£¬ÎŞ·¨ÅĞ¶ÏÒıÓÃÊÇ·ñ×¼È·¡£Òò´Ë£¬Ö»ÄÜÅĞ¶¨Îª¡°²»×¼È·¡±£¬ÒòÎªÎŞ·¨½øĞĞÈÎºÎÊµÖÊĞÔ¶Ô±È¡£
+2025-06-14 14:48:08,006 - reference_agent - INFO - ´¦Àí²Î¿¼ÎÄÏ×: [2] Strubell, E., Ganesh, A., & McCallum, A. (2019...
+2025-06-14 14:48:08,006 - reference_agent - INFO - ÑéÖ¤ÎÄµµÒıÓÃ£¬¹² 1 ¸öÒıÓÃ
+2025-06-14 14:48:08,006 - reference_agent - INFO - ÒıÓÃÄÚÈİ: ['[2]']
+2025-06-14 14:48:08,006 - reference_agent - INFO - ´ÓPDFÌáÈ¡ÎÄ±¾: downloads\Strubell_2019_Energy_and_Policy_Consideratio.pdf
+2025-06-14 14:48:08,473 - reference_agent - INFO - ³É¹¦ÌáÈ¡ÎÄ±¾£¬³¤¶È: 24821 ×Ö·û
+2025-06-14 14:48:08,474 - reference_agent - INFO - ÑéÖ¤ÒıÓÃÄÚÈİ: [2]...
+2025-06-14 14:48:08,474 - reference_agent - INFO - ²Î¿¼ÎÄÏ×ÄÚÈİ: arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and ...
+2025-06-14 14:48:08,557 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 14:48:18,984 - reference_agent - INFO - ÑéÖ¤½á¹û: ²»×¼È·
+2025-06-14 14:48:18,984 - reference_agent - INFO - ·ÖÎö: ÅĞ¶Ï£º²»×¼È·
+
+ÏêÏ¸½âÊÍÀíÓÉ£º
+
+1. ÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ£º
+Ô­ÎÄÒıÓÃ½öÌá¹©ÁËÒ»¸ö±àºÅ"[2]"£¬Ã»ÓĞÌá¹©ÈÎºÎ¾ßÌåµÄÒıÓÃÄÚÈİ»ò¹Ûµã¡£Òò´ËÎŞ·¨ÅĞ¶ÏÒıÓÃµÄÊÂÊµÊÇ·ñ´æÔÚÓÚ²Î¿¼ÎÄÏ×ÖĞ¡£ÍêÕûµÄÒıÓÃÓ¦¸Ã°üº¬¾ßÌåµÄ¹Ûµã¡¢Êı¾İ»ò½áÂÛµÄ±íÊö¡£
+
+2. ÒıÓÃÊÇ·ñÇú½â»ò¿ä´óÁË²Î¿¼ÎÄÏ×µÄ½áÂÛ£º
+ÓÉÓÚÃ»ÓĞÌá¹©¾ßÌåµÄÒıÓÃÄÚÈİ£¬ÎŞ·¨ÆÀ¹ÀÊÇ·ñ´æÔÚÇú½â»ò¿ä´ó¡£ÍêÕûµÄÑ§ÊõÒıÓÃÓ¦¸ÃÃ÷È·±ê×¢ÒıÓÃµÄ¾ßÌåÄÚÈİ£¬ÒÔ±ã½øĞĞºË²é¡£
+
+3. ÒıÓÃµÄÊı¾İ»òÍ³¼ÆĞÅÏ¢ÊÇ·ñÓë²Î¿¼ÎÄÏ×Ò»ÖÂ£º
+Í¬ÑùÓÉÓÚÈ±·¦¾ßÌåÒıÓÃÄÚÈİ£¬ÎŞ·¨ºË¶ÔÊı¾İ»òÍ³¼ÆĞÅÏ¢µÄÒ»ÖÂĞÔ¡£²Î¿¼ÎÄÏ×ÖĞ°üº¬´óÁ¿¾ßÌåÊı¾İ£¨ÈçCO2ÅÅ·ÅÁ¿¡¢ÄÜÔ´ÏûºÄµÈ£©£¬µ«ÒıÓÃÖĞÍêÈ«Ã»ÓĞÌá¼°¡£
+
+½¨Òé£º
+- ÍêÕûµÄÑ§ÊõÒıÓÃÓ¦¸Ã°üº¬¾ßÌåµÄÒıÓÃÄÚÈİ£¬Èç¹Ûµã³ÂÊö»òÊı¾İÒıÓÃ
+- ¶ÔÓÚÊı×ÖÒıÓÃ£¬Ó¦¸ÃÃ÷È·±ê×¢Êı¾İÀ´Ô´ºÍ¾ßÌåÊıÖµ
+- ¶ÔÓÚ¹ÛµãÒıÓÃ£¬Ó¦¸Ã×¼È··´Ó³Ô­ÎÄµÄ±íÊöºÍÓï¾³
+
+µ±Ç°µÄ"[2]"ÒıÓÃĞÎÊ½ÍêÈ«²»·ûºÏÑ§ÊõÒıÓÃ¹æ·¶£¬ÎŞ·¨½øĞĞÓĞĞ§µÄºË²é£¬Òò´ËÅĞ¶ÏÎª"²»×¼È·"¡£
+2025-06-14 14:48:18,986 - reference_agent - INFO - ÒıÓÃÄÚÈİÑéÖ¤Íê³É£¬¹²ÑéÖ¤ 2 ¸öÒıÓÃ
+2025-06-14 14:48:18,987 - reference_agent - INFO - ±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_144818.json
+2025-06-14 14:48:18,988 - reference_agent - INFO - HTML±¨¸æÒÑ±£´æµ½: output\reference_report_20250614_144818.html
+2025-06-14 14:48:18,989 - reference_agent - INFO - Reference Agent ÈÎÎñÍê³É

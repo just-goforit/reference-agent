@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-06-14 15:32:59",
+  "reference_check": {
+    "total_references": 2,
+    "total_citations": 2,
+    "unused_references": [],
+    "missing_references": [],
+    "citation_statistics": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": 1,
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": 1
+    },
+    "document_metadata": {
+      "title": "未知标题",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00+00:00",
+      "modified": "2013-12-23 23:15:00+00:00"
+    }
+  },
+  "download_results": {
+    "total_references": 2,
+    "downloaded_references": 2,
+    "results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": "downloads\\Devlin_2018_BERT_Pretraining_of_Deep_Bidir.pdf",
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": "downloads\\Strubell_2019_Energy_and_Policy_Consideratio.pdf"
+    }
+  },
+  "verification_report": {
+    "total_references": 2,
+    "total_citations": 4,
+    "accurate_citations": 3,
+    "inaccurate_citations": 0,
+    "partially_accurate_citations": 1,
+    "error_citations": 0,
+    "reference_summary": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": {
+        "total": 2,
+        "accurate": 1,
+        "inaccurate": 0,
+        "partially_accurate": 1,
+        "error": 0
+      },
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": {
+        "total": 2,
+        "accurate": 2,
+        "inaccurate": 0,
+        "partially_accurate": 0,
+        "error": 0
+      }
+    },
+    "detailed_results": {
+      "[1] Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805.": [
+        {
+          "result": "部分准确",
+          "analysis": "判断：部分准确\n\n详细解释：\n\n1. 引用的事实是否存在于参考文献中：\n- 原文引用提到\"文本分类、问答系统和机器翻译等任务上取得了显著的性能提升\"，这与参考文献中提到的BERT在多种NLP任务（包括问答系统）上的表现基本一致。参考文献摘要部分明确提到BERT在\"question answering and language inference\"等任务上的优异表现，并在正文中详细列举了在SQuAD等问答任务上的具体提升数据。\n- 但是，参考文献中并未明确提及\"机器翻译\"这一任务，这是原文引用中不够准确的地方。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n- 原文引用使用\"显著的性能提升\"这一表述是合理的，因为参考文献中确实展示了BERT在多个任务上取得了state-of-the-art的结果，并提供了具体的性能提升数据（如GLUE score提升7.7%等）。\n- 不过，\"文本分类\"这一表述略显宽泛，参考文献中更多提到的是具体的句子级任务（如自然语言推理、释义等）和token级任务（如命名实体识别、问答系统），而非笼统的\"文本分类\"。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n- 原文引用没有提供具体数据，只是概括性描述，因此无法直接对比数据准确性。\n- 参考文献中提供了详细的具体任务性能提升数据，但这些数据没有被原文引用直接使用。\n\n总结：\n原文引用基本反映了参考文献的核心内容，即BERT模型在多种NLP任务上的优异表现，但在具体任务范围的描述上不够精确（如包含了未明确提及的\"机器翻译\"，使用\"文本分类\"这一宽泛表述）。因此判断为\"部分准确\"。\n\n建议修改为：\n\"研究表明，这些模型在问答系统、自然语言推理等自然语言处理任务上取得了显著的性能提升[1]。\"\n这样更准确地反映参考文献中具体提到的任务类型。",
+          "citation_text": "研究表明，这些模型在文本分类、问答系统和机器翻译等任务上取得了显著的性能提升[1]。",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        },
+        {
+          "result": "准确",
+          "analysis": "判断：准确\n\n详细解释理由：\n\n1. 引用的事实是否存在于参考文献中：\n   - 原文引用指出\"BERT(Bidirectional Encoder Representations from Transformers)是一种基于Transformer的预训练语言模型\"，这与参考文献摘要部分第一段完全一致：\"We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers.\"\n   - 原文引用提到\"它通过双向上下文学习获取更丰富的语言表示\"，这与参考文献中多处描述一致，特别是摘要部分：\"BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.\"\n\n2. 引用是否曲解或夸大了参考文献的结论：\n   - 原文引用准确反映了BERT的核心创新点（双向上下文学习）而没有夸大。参考文献中明确对比了BERT与之前模型（如GPT）的单向性限制，强调了双向性的重要性。\n   - 引用中\"更丰富的语言表示\"这一表述与参考文献中\"deep bidirectional representations\"和\"state-of-the-art results\"等表述相符，没有过度解读。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n   - 该引用没有涉及具体数据或统计信息，因此这一点不适用。\n\n总体而言，原文引用准确概括了参考文献中关于BERT的核心定义和关键特征，既没有遗漏重要信息，也没有添加不存在的结论或夸大事实。引用内容完全可以在参考文献中找到直接对应的表述。",
+          "citation_text": "BERT(Bidirectional Encoder Representations from Transformers)是一种基于Transformer的预训练语言模型，它通过双向上下文学习获取更丰富的语言表示[1]。",
+          "reference_text_sample": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\nfjacobdevlin,mingweichang,kentonl,kristout g@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT , which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation models (Peters et al., 2018a; Rad-\nford et al., 2018), BERT is designed to pre-\ntrain deep bidirec..."
+        }
+      ],
+      "[2] Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. arXiv:1906.02243.": [
+        {
+          "result": "准确",
+          "analysis": "判断：准确\n\n解释：\n1. 引用的事实是否存在于参考文献中：\n   - 原文引用提到\"大型模型带来了计算资源需求增加和环境影响等问题\"，这与参考文献内容完全一致。参考文献详细讨论了大型NLP模型训练所需的巨大计算资源（如需要多个GPU/TPU、训练时间长）及其带来的环境影响（高能耗、碳足迹），并提供了具体数据支持（如表格1中的CO2排放量估算）。\n\n2. 引用是否曲解或夸大了参考文献的结论：\n   - 引用没有曲解或夸大。参考文献明确指出\"training a state-of-the-art model now requires substantial computational resources which demand considerable energy, along with the associated financial and environmental costs\"，这与引用的表述完全吻合。\n\n3. 引用的数据或统计信息是否与参考文献一致：\n   - 虽然引用没有直接使用具体数据，但其所指的\"计算资源需求增加和环境影响\"正是参考文献的核心研究内容。参考文献通过量化分析（如电力消耗计算、CO2排放估算）和比较（如将模型训练排放与航空旅行、人类年排放量比较）证实了这些观点。\n\n因此，该引用准确反映了参考文献的核心内容和结论，既没有遗漏重要信息，也没有夸大或曲解原意。引用中提到的两个问题（计算资源需求和环境影响）正是该参考文献重点研究和论证的内容。",
+          "citation_text": "然而，这些大型模型也带来了计算资源需求增加和环境影响等问题[2]。",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        },
+        {
+          "result": "准确",
+          "analysis": "判断：**准确**\n\n详细解释理由：\n\n1. **引用的事实是否存在于参考文献中**  \n   - 原文引用指出“训练大型NLP模型会消耗大量能源并产生相应的碳排放”，这一事实在参考文献中明确提到。例如，摘要部分提到“these accuracy improvements depend on the availability of exceptionally large computational resources that necessitate similarly substantial energy consumption”，并且文中还详细讨论了能源消耗和碳排放的具体数据（如Table 1中的CO2排放量估算）。因此，引用的事实完全存在于参考文献中。\n\n2. **引用是否曲解或夸大了参考文献的结论**  \n   - 原文引用并未曲解或夸大参考文献的结论。参考文献的核心观点之一确实是大型NLP模型的训练会带来高能耗和碳排放，原文引用准确地概括了这一结论，且没有添加任何主观夸大或曲解的内容。\n\n3. **引用的数据或统计信息是否与参考文献一致**  \n   - 原文引用并未提及具体数据或统计信息（如碳排放的具体数值），而是对参考文献的总体结论进行了概括性引用。因此，不存在数据或统计信息不一致的问题。如果引用中包含了具体数据（如“训练一个Transformer模型产生192磅CO2”），则需要进一步核对，但当前的引用并未涉及具体数据，因此无需担忧这一点。\n\n综上，原文引用准确地反映了参考文献的内容，既没有遗漏关键信息，也没有曲解或夸大原意，因此判断为**准确**。",
+          "citation_text": "Strubell等人的研究指出，训练大型NLP模型会消耗大量能源并产生相应的碳排放[2]。",
+          "reference_text_sample": "arXiv:1906.02243v1  [cs.CL]  5 Jun 2019Energy and Policy Considerations for Deep Learning in NLP\nEmma Strubell Ananya Ganesh Andrew McCallum\nCollege of Information and Computer Sciences\nUniversity of Massachusetts Amherst\n{strubell, aganesh, mccallum }@cs.umass.edu\nAbstract\nRecent progress in hardware and methodol-\nogy for training neural networks has ushered\nin a new generation of large networks trained\non abundant data. These models have ob-\ntained notable gains in accuracy across many\nNLP tas..."
+        }
+      ]
+    }
+  }
+}

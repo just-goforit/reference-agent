@@ -124,7 +124,7 @@ def verify_citations(parser: DocumentParser, reference_checker: ReferenceChecker
                         if normalize_citation(citation) in reference_checker.reference_map 
                         and reference_checker.reference_map[normalize_citation(citation)] == i]
             if citations:
-                citation_map[reference] = citations
+                citation_map[reference] = reference_checker.citations[citations[0]]
     
     logger.info(f"构建引用内容映射，共 {len(citation_map)} 条")
     logger.info(f"引用内容映射示例: {citation_map}")

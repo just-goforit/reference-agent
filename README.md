@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## 使用方法
 
 ```bash
-python main.py --input your_paper.docx
+python main.py --input your_paper.docx --all
 ```
 
 ## 项目结构

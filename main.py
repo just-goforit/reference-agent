@@ -289,7 +289,6 @@ def generate_html_report(report_data: Dict[str, Any], output_path: str) -> None:
                 </div>
             </div>
             
-            {{#has_download_results}}
             <div class="card">
                 <h2>文献下载摘要</h2>
                 <div class="stat">
@@ -301,9 +300,7 @@ def generate_html_report(report_data: Dict[str, Any], output_path: str) -> None:
                     下载成功率
                 </div>
             </div>
-            {{/has_download_results}}
-            
-            {{#has_verification_results}}
+
             <div class="card">
                 <h2>引用内容核查摘要</h2>
                 <div class="stat">
@@ -327,7 +324,6 @@ def generate_html_report(report_data: Dict[str, Any], output_path: str) -> None:
                     验证出错的引用
                 </div>
             </div>
-            {{/has_verification_results}}
             
             <div class="card">
                 <h2>未被引用的参考文献</h2>
@@ -349,7 +345,6 @@ def generate_html_report(report_data: Dict[str, Any], output_path: str) -> None:
                 {{/missing_reference_list}}
             </div>
             
-            {{#has_verification_results}}
             <div class="card">
                 <h2>引用内容核查详情</h2>
                 {{#verification_details}}
@@ -368,7 +363,6 @@ def generate_html_report(report_data: Dict[str, Any], output_path: str) -> None:
                 {{/citations}}
                 {{/verification_details}}
             </div>
-            {{/has_verification_results}}
         </div>
     </body>
     </html>
